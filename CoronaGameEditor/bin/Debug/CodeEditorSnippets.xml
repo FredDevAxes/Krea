@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Snippets>
+  <TouchEvent>
+    <ShortCut>onTouchEvent</ShortCut>
+    <Code>onTouchEvent = function(event)
+
+        local phase = event.phase
+        local target = event.target
+
+        if(phase == "began") then
+
+        elseif(phase == "moved") then
+
+        elseif(phase == "ended") then
+
+        end
+
+        return true
+      end
+    </Code>
+  </TouchEvent>
+
+  <GyroscopeEvent>
+    <ShortCut>onGyroscopeEvent</ShortCut>
+    <Code>onGyroscopeEvent = function(event)
+
+        local xRotation = event.xRotation
+        local yRotation = event.yRotation
+        local zRotation = event.zRotation
+        local deltaTime = event.deltaTime
+
+      end
+    </Code>
+  </GyroscopeEvent>
+
+  <LocationEvent>
+    <ShortCut>onGPSEvent</ShortCut>
+    <Code>onGPSEvent = function(event)
+
+        local accuracy = event.accuracy
+        local altitude = event.altitude
+        local direction = event.direction
+        local errorCode = event.errorCode
+        local errorMessage = event.errorMessage
+        local latitude = event.latitude
+        local longitude = event.longitude
+        local speed = event.speed
+        local time = event.time
+
+      end
+    </Code>
+  </LocationEvent>
+
+  <KeyEvent>
+    <ShortCut>onKeyEvent</ShortCut>
+    <Code>onKeyEvent = function(event)
+
+        local phase = event.phase
+        local keyName = event.keyName
+
+        if(phase == "up")then
+
+        elseif(phase == "down") then
+
+        end
+
+        return true
+      end
+    </Code>
+  </KeyEvent>
+
+
+  <GlobalCollisionEvent>
+    <ShortCut>onGlobalCollisionEvent</ShortCut>
+    <Code>onGlobalCollisionEvent = function(event)
+
+        local phase = event.phase
+        local object1 = event.object1
+        local object2 = event.object2
+        local element1 = event.element1
+        local element2 = event.element2
+        local x = event.x
+        local y = event.y
+
+        if(phase == "began")then
+
+        elseif(phase == "ended") then
+
+        end
+
+        return true
+      end
+    </Code>
+  </GlobalCollisionEvent>
+
+  <GlobalPreCollisionEvent>
+    <ShortCut>onGlobalPreCollisionEvent</ShortCut>
+    <Code>onGlobalPreCollisionEvent = function(event)
+
+        local object1 = event.object1
+        local object2 = event.object2
+        local element1 = event.element1
+        local element2 = event.element2
+        local x = event.x
+        local y = event.y
+
+        return true
+      end
+    </Code>
+  </GlobalPreCollisionEvent>
+
+  <GlobalPostCollisionEvent>
+    <ShortCut>onGlobalPostCollisionEvent</ShortCut>
+    <Code>onGlobalPostCollisionEvent = function(event)
+
+        local object1 = event.object1
+        local object2 = event.object2
+        local element1 = event.element1
+        local element2 = event.element2
+        local x = event.x
+        local y = event.y
+        local friction = event.friction
+        local force = event.force
+
+        return true
+      end
+    </Code>
+  </GlobalPostCollisionEvent>
+
+
+  <LocalCollisionEvent>
+    <ShortCut>onLocalCollisionEvent</ShortCut>
+    <Code>onLocalCollisionEvent = function(event)
+
+        local phase = event.phase
+        local target = event.target
+        local other = event.other
+        local selfElement = event.selfElement
+        local otherElement = event.otherElement
+        local x = event.x
+        local y = event.y
+
+        if(phase == "began")then
+
+        elseif(phase == "ended") then
+
+        end
+
+        return true
+      end
+    </Code>
+  </LocalCollisionEvent>
+
+  <LocalPreCollisionEvent>
+    <ShortCut>onLocalPreCollisionEvent</ShortCut>
+    <Code>onLocalPreCollisionEvent = function(event)
+
+        local target = event.target
+        local other = event.other
+        local selfElement = event.selfElement
+        local otherElement = event.otherElement
+        local x = event.x
+        local y = event.y
+
+        return true
+      end
+    </Code>
+  </LocalPreCollisionEvent>
+
+  <LocalPostCollisionEvent>
+    <ShortCut>onLocalPostCollisionEvent</ShortCut>
+    <Code>onLocalPostCollisionEvent = function(event)
+
+        local target = event.target
+        local other = event.other
+        local selfElement = event.selfElement
+        local otherElement = event.otherElement
+        local x = event.x
+        local y = event.y
+        local friction = event.friction
+        local force = event.force
+
+        return true
+      end
+    </Code>
+  </LocalPostCollisionEvent>
+
+
+  <TapEvent>
+    <ShortCut>onTapEvent</ShortCut>
+    <Code>onTapEvent = function(event)
+
+        local numTaps = event.numTaps
+        local x = event.x
+        local y = event.y
+
+
+      end
+    </Code>
+  </TapEvent>
+
+
+
+</Snippets>

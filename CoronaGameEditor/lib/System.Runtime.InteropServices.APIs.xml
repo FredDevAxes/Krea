@@ -1,0 +1,692 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>System.Runtime.InteropServices.APIs</name>
+    </assembly>
+    <members>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.WindowMessages">
+            <summary>
+            Window messages / WM
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.KeyStatesMasks">
+            <summary>
+            Key State Masks / MK
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.EditControlNotificationCodes">
+            <summary>
+            Edit Control Notification Codes / EN
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.ComboBoxNotificationCodes">
+            <summary>
+            Combo Box Notification Codes / CBN
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.ComboBoxMessages">
+            <summary>
+            Combo Box Messages / CB
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.ScrollBarFlags">
+            <summary>
+            ScrollBar flags / SB
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.ScrollBarFlags.LINEUP">
+            <summary>
+            Scrolls one line up
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.ScrollBarFlags.LINELEFT">
+            <summary>
+            Scrolls one line left
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.ScrollBarFlags.LINEDOWN">
+            <summary>
+            Scrolls one line down
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.ScrollBarFlags.LINERIGHT">
+            <summary>
+            Scrolls one page right
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.ScrollBarFlags.PAGEUP">
+            <summary>
+            Scrolls one page up
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.ScrollBarFlags.PAGELEFT">
+            <summary>
+            Scrolls one page left
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.ScrollBarFlags.PAGEDOWN">
+            <summary>
+            Scrolls one page down
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.ScrollBarFlags.PAGERIGHT">
+            <summary>
+            Scrolls one page right
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.ScrollBarFlags.TOP">
+            <summary>
+            Scrolls to the upper left
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.ScrollBarFlags.BOTTOM">
+            <summary>
+            Scrolls to the lower right
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.ScrollBarFlags.ENDSCROLL">
+            <summary>
+            Ends scroll
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.EditControlMessages">
+            <summary>
+            Edit Control Messages / EM
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.MenuItemMasks">
+            <summary>
+            MenuItem Masks / MIIM
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.MenuItemFlags">
+            <summary>
+            MenuItem Flags / MF
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.MenuItemStates">
+            <summary>
+            MenuItem States / MFS
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.QueryContextMenuFlags">
+            <summary>
+            QueryContextMenuFlags / CMF
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.TrackPopupMenuFlags">
+            <summary>
+            TrackPopupMenuFlags / TPM
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.MenuItemTypes">
+            <summary>
+            MenuItemTypes / MFT
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.ClipboardFormats">
+            <summary>
+            ClipboardFormats / CLIPFORMAT
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.TargetDevices">
+            <summary>
+            TargetDevices / DVASPECT
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.StorageMediumTypes">
+            <summary>
+            StorageMediumTypes / TYMED
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.ShellSpecialFolders">
+            <summary>
+            ShellSpecialFolders / CSIDL
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.ShellFolderGetaFromIDList">
+            <summary>
+            ShellFolderGetaFromIDList / SHGDFIL
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.ShellFolderEnumObjectsTypes">
+            <summary>
+            ShellFolderEnumObjectsTypes / SHCONTF
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.ShellFolderAttributes">
+            <summary>
+            ShellFolderAttributes / SFGAOF
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.ShellFolderDisplayNames">
+            <summary>
+            ShellFolderDisplayNames / SHGNO
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.ShellExecuteFlags">
+            <summary>
+            Shell Execute Flags / SEE
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.ShellGetFileInformationFlags">
+            <summary>
+            Shell Get File Information Flags / SHGFI
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.SystemCommands">
+            <summary>
+            System Commands / SC
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.SystemCommands.SIZE">
+            <summary>
+            Sizes the window
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.SystemCommands.MOVE">
+            <summary>
+            Moves the window
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.SystemCommands.MINIMIZE">
+            <summary>
+            Minimizes the window
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.SystemCommands.MAXIMIZE">
+            <summary>
+            Maximizes the window
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.SystemCommands.NEXTWINDOW">
+            <summary>
+            Moves to the next window
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.SystemCommands.PREVWINDOW">
+            <summary>
+            Moves to the previous window
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.SystemCommands.CLOSE">
+            <summary>
+            Closes the window
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.SystemCommands.VSCROLL">
+            <summary>
+            Scrolls vertically
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.SystemCommands.HSCROLL">
+            <summary>
+            Scrolls horizontally
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.SystemCommands.MOUSEMENU">
+            <summary>
+            Retrieves the window menu as a result of a mouse click
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.SystemCommands.KEYMENU">
+            <summary>
+            Retrieves the window menu as a result of a keystroke
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.SystemCommands.RESTORE">
+            <summary>
+            Restores the window to its normal position and size
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.SystemCommands.TASKLIST">
+            <summary>
+            Activates the Start menu
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.SystemCommands.SCREENSAVE">
+            <summary>
+            Executes the screen saver application specified in the [boot] section of the System.ini file
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.SystemCommands.HOTKEY">
+            <summary>
+            Activates the window associated with the application-specified hot key. The lParam parameter identifies the window to activate
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.SystemCommands.DEFAULT">
+            <summary>
+            Selects the default item; the user double-clicked the window menu
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.SystemCommands.MONITORPOWER">
+            <summary>
+            Sets the state of the display. This command supports devices that have power-saving features, such as a battery-powered personal computer. 
+            The lParam parameter can have the following values:
+                1 - the display is going to low power
+                2 - the display is being shut off
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.SystemCommands.CONTEXTHELP">
+            <summary>
+            Changes the cursor to a question mark with a pointer. If the user then clicks a control in the dialog box, the control receives a WM_HELP message
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.GetCommandStringInformations">
+            <summary>
+            GetCommandString informations / GCS
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.FileOperations">
+            <summary>
+            File Operations / FO
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.FileOperationFlags">
+            <summary>
+            FileOperation Flag / FOF
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.FileOperationFlags.SILENT">
+            <summary>
+            Don't create progress/report
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.FileOperationFlags.NOCONFIRMATION">
+            <summary>
+            Don't prompt the user.
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.FileOperationFlags.WANTMAPPINGHANDLE">
+            <summary>
+            Fill in SHFILEOPSTRUCT.hNameMappings
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsEnums.FileOperationFlags.FILESONLY">
+            <summary>
+            On *.*, do only files
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.ListViewMessages">
+            <summary>
+            ListView Messages / LVM
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.ListViewNotifications">
+            <summary>
+            ListView Notifications / LVN
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.ListViewItemFlags">
+            <summary>
+            ListViewItem Flags / LVIF
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.ListViewItemStates">
+            <summary>
+            ListViewItemState / LVIS
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.ListViewSubItemPortion">
+            <summary>
+            List View sub item portion / LVIR
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.ListViewHitTestFlags">
+            <summary>
+            ListView HitTest Flags / LVHT
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.ReflectedMessages">
+            <summary>
+            Reflected Messages / OCM
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.HeaderItemFlags">
+            <summary>
+            HeaderItem flags / HDI
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.HeaderControlMessages">
+            <summary>
+            Header Control Messages / HDM
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.HeaderControlNotifications">
+            <summary>
+            Header Control Notifications / HDN
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.HeaderControlHitTestFlags">
+            <summary>
+            Header Control HitTest Flags / HHT
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.CustomDrawReturnFlags">
+            <summary>
+            Custom Draw Return Flags / CDRF
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.CustomDrawItemStateFlags">
+            <summary>
+            CustomDrawItemStateFlags / CDIS
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.CustomDrawDrawStateFlags">
+            <summary>
+            CustomDrawDrawStateFlags / CDDS
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.PatBltTypes">
+            <summary>
+            PatBlt Types
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.BackgroundMode">
+            <summary>
+            Background Mode
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.ShowWindowStyles">
+            <summary>
+            ShowWindow Styles / SW
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.WindowsHookCodes">
+            <summary>
+            Windows Hook Codes / WH
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.CursorTypes">
+            <summary>
+            Cursor Types / IDC
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.SystemMetricsCodes">
+            <summary>
+            System Metrics Codes / SM
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.SystemObjects">
+            <summary>
+            Windows System Objects / OBJID
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.TrackerEventFlags">
+            <summary>
+            Tracker Event Flags / TME
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.DrawTextFormatFlags">
+            <summary>
+            Draw Text format flags / DT
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.UpdateLayeredWindowFlags">
+            <summary>
+            Update Layered Windows Flags / ULW
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.PeekMessageFlags">
+            <summary>
+            Peek Message Flags / PM
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.NotificationMessages">
+            <summary>
+            Notification Messages / NM
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.SystemColors">
+            <summary>
+            System Colors / COLOR
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.DrawFrameControlFlags">
+            <summary>
+            Draw Frame Control Flags / DFC
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.DrawFrameControlStateFlags">
+            <summary>
+            Draw Frame Control State Flags / DFC
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.UxThemeMinButtonStates">
+            <summary>
+            UxTheme MinButton States / MINBS
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsEnums.UxThemeWindowParts">
+            <summary>
+            UxTheme Window Parts / WP
+            </summary>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShell.SHGetDesktopFolder(System.Runtime.InteropServices.APIs.COMInterfaces.IShellFolder@)">
+            <summary>
+            Retrieves the IShellFolder interface for the desktop folder, which is the root of the Shell's namespace.
+            </summary>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShell.SHGetSpecialFolderLocation(System.IntPtr,System.Runtime.InteropServices.APIs.APIsEnums.ShellSpecialFolders,System.IntPtr@)">
+            <summary>
+            Retrieves a pointer to the ITEMIDLIST structure of a special folder.
+            </summary>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShell.SHBindToParent(System.IntPtr,System.Guid,System.Runtime.InteropServices.APIs.COMInterfaces.IShellFolder@,System.IntPtr@)">
+            <summary>
+            This function takes the fully-qualified PIDL of a namespace object, and returns a specified interface pointer on the parent object.
+            </summary>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShell.SHFileOperation(System.Runtime.InteropServices.APIs.APIsStructs.SHFILEOPSTRUCT@)">
+            <summary>
+            Copies, moves, renames, or deletes a file system object.
+            </summary>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShell.ShellExecute(System.IntPtr,System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Execute the file
+            </summary>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShell.StrRetToBuf(System.Runtime.InteropServices.APIs.APIsStructs.STRRET,System.IntPtr,System.String,System.UInt32)">
+            <summary>
+            Takes a STRRET structure returned by IShellFolder::GetDisplayNameOf, converts it to a string, and places the result in a buffer.
+            </summary>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShlwapi.PathCompactPath(System.IntPtr,System.Text.StringBuilder,System.Int32)">
+            <summary>
+            Truncates a file path to fit within a given pixel width by replacing path components with ellipses.
+            </summary>
+            <param name="hDC"></param>
+            <param name="lpszPath"></param>
+            <param name="dx"></param>
+            <returns>Returns TRUE if the path was successfully compacted to the specified width. Returns FALSE on failure, or if the base portion of the path would not fit the specified width</returns>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShlwapi.PathCompactPathEx(System.Text.StringBuilder,System.Text.StringBuilder,System.Int32,System.Int32)">
+            <summary>
+            Truncates a path to fit within a certain number of characters by replacing path components with ellipses
+            </summary>
+            <param name="pszOut"></param>
+            <param name="pszSrc"></param>
+            <param name="cchMax"></param>
+            <param name="dwFlags"></param>
+            <returns>Returns TRUE if successful, or FALSE otherwise</returns>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShlwapi.PathIsFileSpec(System.String)">
+            <summary>
+            Searches a path for any path delimiting characters (for example, ':' or '\' ). If there are no path delimiting characters present, the path is considered to be a File Spec path
+            </summary>
+            <param name="path">Path searched</param>
+            <returns>Returns TRUE if there are no path delimiting characters within the path, or FALSE if there are path delimiting characters</returns>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShlwapi.PathIsPrefix(System.String,System.String)">
+            <summary>
+            Searches a path to determine if it contains a valid prefix of the type passed by pszPrefix. A prefix is one of these types: "C:\\", ".", "..", "..\\"
+            </summary>
+            <param name="prefix"></param>
+            <param name="path"></param>
+            <returns>Returns TRUE if the compared path is the full prefix for the path, or FALSE otherwise</returns>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShlwapi.PathIsRelative(System.String)">
+            <summary>
+            Searches a path and determines if it is relative
+            </summary>
+            <param name="path"></param>
+            <returns>Returns TRUE if the path is relative, or FALSE if it is absolute</returns>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShlwapi.PathIsRoot(System.String)">
+            <summary>
+            Parses a path to determine if it is a directory root
+            </summary>
+            <param name="path"></param>
+            <returns>Returns TRUE if the specified path is a root, or FALSE otherwise</returns>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShlwapi.PathIsSameRoot(System.String,System.String)">
+            <summary>
+            Compares two paths to determine if they have a common root component
+            </summary>
+            <param name="path1"></param>
+            <param name="path2"></param>
+            <returns>Returns TRUE if both strings have the same root component, or FALSE otherwise</returns>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShlwapi.PathIsUNC(System.String)">
+            <summary>
+            Determines if the string is a valid UNC (universal naming convention) for a server and share path
+            </summary>
+            <param name="path"></param>
+            <returns>Returns TRUE if the string is a valid UNC path, or FALSE otherwise</returns>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShlwapi.PathIsUNCServer(System.String)">
+            <summary>
+            Determines if a string is a valid UNC (universal naming convention) for a server path only
+            </summary>
+            <param name="path"></param>
+            <returns>Returns TRUE if the string is a valid UNC path for a server only (no share name), or FALSE otherwise</returns>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShlwapi.PathIsUNCServerShare(System.String)">
+            <summary>
+            Determines if a string is a valid universal naming convention (UNC) share path, \\server\share
+            </summary>
+            <param name="path"></param>
+            <returns>Returns TRUE if the string is in the form \\server\share, or FALSE otherwise</returns>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShlwapi.PathIsURL(System.String)">
+            <summary>
+            Tests a given string to determine if it conforms to a valid URL format
+            </summary>
+            <param name="path"></param>
+            <returns>Returns TRUE if pszPath has a valid URL format, or FALSE otherwise</returns>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShlwapi.PathMakePretty(System.Text.StringBuilder)">
+            <summary>
+            Converts a path to all lowercase characters to give the path a consistent appearance
+            </summary>
+            <param name="path"></param>
+            <returns>Returns TRUE if the path has been converted, or FALSE otherwise</returns>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShlwapi.PathMatchSpec(System.String,System.String)">
+            <summary>
+            Searches a string using a DOS wild card match type
+            </summary>
+            <param name="fileparam">Contains the path to be searched</param>
+            <param name="spec">Contains the file type for which to search. For example, to test whether or not pszFileParam is a DOC file, pszSpec should be set to "*.doc"</param>
+            <returns>Returns TRUE if the string matches, or FALSE otherwise</returns>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShlwapi.PathParseIconLocation(System.Text.StringBuilder)">
+            <summary>
+            Parses a file location string containing a file location and icon index, and returns separate values
+            </summary>
+            <param name="IconFile">Contains a file location string. It should be in the form "pathname,iconindex". When the function returns, pszIconFile will point to the file's pathname</param>
+            <returns>Returns the valid icon index value</returns>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShlwapi.PathQuoteSpaces(System.Text.StringBuilder)">
+            <summary>
+            Searches a path for spaces. If spaces are found, the entire path is enclosed in quotation marks
+            </summary>
+            <param name="lpsz">Path to search</param>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShlwapi.PathRelativePathTo(System.Text.StringBuilder,System.String,System.Int32,System.String,System.Int32)">
+            <summary>
+            Creates a relative path from one file or folder to another
+            </summary>
+            <param name="path"></param>
+            <param name="from"></param>
+            <param name="attrFrom"></param>
+            <param name="to"></param>
+            <param name="attrTo"></param>
+            <returns>Returns TRUE if successful, or FALSE otherwise</returns>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShlwapi.PathRemoveArgs(System.Text.StringBuilder)">
+            <summary>
+            Removes any arguments from a given path
+            </summary>
+            <param name="path"></param>
+        </member>
+        <member name="M:System.Runtime.InteropServices.APIs.APIsShlwapi.PathRemoveBackslash(System.String)">
+            <summary>
+            Removes the trailing backslash from a given path
+            </summary>
+            <param name="path"></param>
+            <returns>Returns the address of the NULL that replaced the backslash, or the address of the last character if it's not a backslash</returns>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.TextUtil">
+            <summary>
+            Summary description for TextUtil.
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsStructs.SHFILEOPSTRUCT">
+            <summary>
+            Contains information that the SHFileOperation function uses to perform file operations.
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsStructs.SHFILEOPSTRUCT.hwnd">
+            <summary>
+            Window handle to the dialog box to display information about the status of the file operation.
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsStructs.SHFILEOPSTRUCT.wFunc">
+            <summary>
+            Value that indicates which operation to perform.
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsStructs.SHFILEOPSTRUCT.pFrom">
+            <summary>
+            Address of a buffer to specify one or more source file names.
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsStructs.SHFILEOPSTRUCT.pTo">
+            <summary>
+            Address of a buffer to contain the name of the destination file or directory.
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsStructs.SHFILEOPSTRUCT.fFlags">
+            <summary>
+            Flags that control the file operation (should use APISEnums.FOF).
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsStructs.SHFILEOPSTRUCT.fAnyOperationsAborted">
+            <summary>
+            Value that receives TRUE if the user aborted any file operations before they were completed, or FALSE otherwise.
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsStructs.SHFILEOPSTRUCT.hNameMappings">
+            <summary>
+            A handle to a name mapping object containing the old and new names of the renamed files.
+            </summary>
+        </member>
+        <member name="F:System.Runtime.InteropServices.APIs.APIsStructs.SHFILEOPSTRUCT.lpszProgressTitle">
+            <summary>
+            Address of a string to use as the title of a progress dialog box.
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.APIsClipboard">
+            <summary>
+            Summary description for Clipboard.
+            </summary>
+        </member>
+        <member name="T:System.Runtime.InteropServices.APIs.ColorUtil">
+            <summary>
+            Summary description for ColorConvert.
+            </summary>
+        </member>
+    </members>
+</doc>

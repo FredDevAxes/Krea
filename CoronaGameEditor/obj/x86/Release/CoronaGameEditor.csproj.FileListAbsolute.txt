@@ -1,0 +1,98 @@
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\SciLexer.dll
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\SciLexerx64.dll
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\License.txt
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\TilesMap\ObjectSheets\TileA_32x32.png
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\TilesMap\ObjectSheets\TileB_32x32.png
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\TilesMap\ObjectSheets\TileC_32x32.png
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\TilesMap\ObjectSheets\TileD_32x32.png
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\TilesMap\ObjectSheets\TileE_32x32.png
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\TilesMap\ObjectSheets\TileF_32x32.png
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\TilesMap\TextureSheets\TileA3_32x32.png
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\TilesMap\TextureSheets\TileA4_32x32.png
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\TilesMap\TextureSheets\TileA5_32x32.png
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Settings1.Designer.cs
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Settings1.settings
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\fpsanalyser.lua
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\generator.lua
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\joystick.lua
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Template\main.lua
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Template\scene.lua
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\object.lua
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\rosetta.lua
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\soundengine.lua
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\tabbar.lua
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\tilesmap.lua
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\ui.lua
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\mobileeditorengine.lua
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Template\scene_editormobile.lua
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\pathfollow.lua
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Resources\Icone PNG CGE\Icon.png
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Version.txt
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\CoronaGameEditor.exe.config
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\CoronaGameEditor.exe
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\CoronaGameEditor.pdb
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\CGEAutoUpdate.exe
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\GeometryUtility.dll
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\GoogleTranslateAPI.dll
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Ionic.Zip.dll
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Newtonsoft.Json.dll
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\PolygonCuttingEar.dll
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\ScintillaNet.dll
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\SyntaxHighlightingTextBox.dll
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\WeifenLuo.WinFormsUI.Docking.dll
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\CGEAutoUpdate.pdb
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\ScintillaNet.pdb
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.csproj.ResolveComReference.cache
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.g.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.AssetManager.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.Asset_Manager.AudioManagerPanel.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.Asset_Manager.ImageManagerPanel.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.Asset_Manager.SnippetManagerPanel.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.Asset_Manager.SpriteManagerPanel.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.Asset_Manager.SpriteSetManagerPanel.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.SpriteSheetManagerPanel.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.SpriteSetPictBx.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.Asset_Manager.TilesMapEditorMobileDesigner.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.CodeEditor.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.CGEeditor.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.CodeEditor.CoronaAPIPanel.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.SnippetEditor.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.DocumentForm.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.CodeManager.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.CollisionManager.CollisionManager.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.CollisionMask.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.Form1.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameElementTreeView.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.GraduationBar.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.ImageObjectsPanel.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.JointurePropertiesPanel.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.LanguageManager.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.NewProject.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.DistancePropertiesPanel.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.FrictionPropertiesPanel.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.PistonPropertiesPanel.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.PivotPropertiesPanel.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.PulleyPropertiesPanel.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.TouchPropertiesPanel.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.WeldPropertiesPanel.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.WheelPropertiesPanel.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.Panel_Widgets.PanelPickerWheel.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.Panel_Widgets.PanelTabBar.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.PhysicBodyEditorView.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.PhysicBodyProperties.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.SceneEditorView.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.ScenePreview.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.SplashScreen.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.TilesMapping.TilesManagerPanel.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.TilesMapping.TilesMapEditor.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.Properties.Resources.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.exe
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.pdb
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.AppSettingsManager.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.AboutCGE.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.Security.securityManager.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\CoronaGameEditor.GameEditor.StartUp.StartUpPage.resources
+C:\Users\Fred\documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\resolutions.txt

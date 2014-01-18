@@ -1,0 +1,133 @@
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Krea.exe.config
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.csproj.ResolveComReference.cache
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\SciLexer.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\SciLexerx64.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\joystick.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Template\main.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Template\scene_editormobile.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\generator.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Template\scene.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\object.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\rosetta.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\soundengine.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\tilesmap.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\mobileeditorengine.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\pathfollow.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Template\snippet.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\LuaDoc\index.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\LuaDoc\luadoc.css
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\LuaDoc\modules\fpsanalyser.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\LuaDoc\modules\fstar.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\LuaDoc\modules\generator.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\LuaDoc\modules\joystick.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\LuaDoc\modules\mobileeditorengine.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\LuaDoc\modules\object.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\LuaDoc\modules\pathfollow.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\LuaDoc\modules\radar.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\LuaDoc\modules\rosetta.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\LuaDoc\modules\soundengine.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\LuaDoc\modules\tilesmap.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\fstar.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\radar.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\resolutions.txt
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Settings1.settings
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Version.txt
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Settings1.Designer.cs
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Krea.exe
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Krea.pdb
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\GeometryUtility.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Ionic.Zip.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Newtonsoft.Json.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\PolygonCuttingEar.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\ScintillaNet.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\WeifenLuo.WinFormsUI.Docking.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.AboutKrea.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.AppSettingsManager.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.CGEeditor.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.CodeEditor.CoronaAPIPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.SnippetEditor.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.DocumentForm.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.CollisionManager.CollisionManager.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.Form1.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameElementTreeView.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.GraduationBar.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.ImageObjectsPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.Panel_Jointures_Properties.DistancePropertiesPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.Panel_Jointures_Properties.FrictionPropertiesPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.Panel_Jointures_Properties.PistonPropertiesPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.Panel_Jointures_Properties.PivotPropertiesPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.Panel_Jointures_Properties.PulleyPropertiesPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.Panel_Jointures_Properties.TouchPropertiesPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.Panel_Jointures_Properties.WeldPropertiesPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.Panel_Jointures_Properties.WheelPropertiesPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.Panel_Widgets.PanelPickerWheel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.Panel_Widgets.PanelTabBar.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.PhysicBodyEditorView.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.SceneEditorView.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.ScenePreview.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.TilesMapping.TilesManagerPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.TilesMapping.TilesMapEditor.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.Properties.Resources.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.exe
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.pdb
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.Asset_Manager.AssetManagerForm.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.Asset_Manager.SnippetManagerPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.Asset_Manager.SpriteManagerPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.Asset_Manager.SpriteSetManagerPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.Asset_Manager.SpriteSheetManagerPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.Asset_Manager.ImageManagerPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.Asset_Manager.AudioManagerPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\lua51.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.CodeEditor.AutoCompleteForm.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\System.Runtime.InteropServices.APIs.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\System.Windows.Forms.TreeListView.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\System.Runtime.InteropServices.APIs.pdb
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\System.Runtime.InteropServices.APIs.xml
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.Debugger.DebuggerPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.CodeEditor.DataTip.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.Asset_Manager.FontManagerPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.RemoteDebugger.AppRemoteController.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\Krea Remote\remoteback.png
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\staticAPI.xml
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\Krea Remote\remotecontroler.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\Krea Remote\remotescene.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.PropertyGridEditors.CollisionGroupPropertyEditor.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.PropertyGridEditors.FontPropertyEditor.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.PropertyGridEditors.SliderPropertyEditor.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.RemoteDebugger.CompassView.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\GoogleMapComponent.GoogleMapControl.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.RemoteDebugger.RemoteControllerForm.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\CodeEditorSnippets.xml
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Krea_Third_Party_Tool_Licences.txt
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.FileExplorer.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.TilesMapping.TileEventManager.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.TilesMapping.TileSequenceManager.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Help\HowTo_ENGLISH.chm
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\graph.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\entity.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.RemoteDebugger.RemoteInfo.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.RemoteDebugger.KeyView.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\perfanalyser.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Lua Repository\camera.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.LanguageManagerV2.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.ProjectSettings.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.PropertyGridEditors.SpriteSequencePropertyEditor.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.LanguageManager.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Gorgon.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\Gorgon.xml
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.PhysicsBodySettings.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.Asset_Manager.SpriteSheetSplitter.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Interop.WMPLib.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\NAudio.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\NAudio.WindowsMediaFormat.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.AudioPlayer.AudioPlayerControl.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.AudioPlayer.AudioPlayerForm.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.AudioPlayer.WaveformPainter.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Release\Krea.GameEditor.AnimationManager.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\lib\rdbglua51.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\lib\rdbglua52.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\GMap.NET.Core.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Release\GMap.NET.WindowsForms.dll

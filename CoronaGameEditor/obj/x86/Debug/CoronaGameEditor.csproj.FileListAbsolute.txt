@@ -1,0 +1,287 @@
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\CoronaGameEditor.exe
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\CoronaGameEditor.pdb
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\GeometryUtility.dll
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\GoogleTranslateAPI.dll
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\PolygonCuttingEar.dll
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\SyntaxHighlightingTextBox.dll
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\GeometryUtility.pdb
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\PolygonCuttingEar.pdb
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.AssetManager.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Asset_Manager.AudioManagerPanel.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Asset_Manager.ImageManagerPanel.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Asset_Manager.SpriteManagerPanel.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Asset_Manager.SpriteSetManagerPanel.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.SpriteSheetManagerPanel.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.SpriteSetPictBx.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.CodeEditor.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.CodeManager.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.CollisionMask.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Form1.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameElementTreeView.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GrilleMap.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.ImageObjectsPanel.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.JointurePropertiesPanel.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.LanguageManager.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.NewProject.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.DistancePropertiesPanel.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.FrictionPropertiesPanel.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.PistonPropertiesPanel.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.PivotPropertiesPanel.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.PulleyPropertiesPanel.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.TouchPropertiesPanel.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.WeldPropertiesPanel.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.WheelPropertiesPanel.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.PhysicBodyEditorView.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.PhysicBodyProperties.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.SceneEditorView.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Properties.Resources.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.TexturesPanel.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.exe
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.pdb
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.CGEeditor.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.DocumentForm.resources
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\CoronaGameEditor.exe.config
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\SciLexer.dll
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\SciLexerx64.dll
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\License.txt
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\ScintillaNet.dll
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Users\Fred\Documents\visual studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\ScintillaNet.pdb
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\CoronaGameEditor.exe.config
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.exe
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.pdb
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\SciLexer.dll
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\SciLexerx64.dll
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\License.txt
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\CoronaGameEditor.exe
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\CoronaGameEditor.pdb
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\GeometryUtility.dll
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\GoogleTranslateAPI.dll
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\PolygonCuttingEar.dll
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\ScintillaNet.dll
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\SyntaxHighlightingTextBox.dll
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\GeometryUtility.pdb
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\PolygonCuttingEar.pdb
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\bin\Debug\ScintillaNet.pdb
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.AssetManager.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Asset_Manager.AudioManagerPanel.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Asset_Manager.ImageManagerPanel.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Asset_Manager.SpriteManagerPanel.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Asset_Manager.SpriteSetManagerPanel.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.SpriteSheetManagerPanel.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.SpriteSetPictBx.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.CodeEditor.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.CGEeditor.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.DocumentForm.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.CodeManager.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.CollisionMask.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Form1.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameElementTreeView.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GrilleMap.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.ImageObjectsPanel.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.JointurePropertiesPanel.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.LanguageManager.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.NewProject.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.DistancePropertiesPanel.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.FrictionPropertiesPanel.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.PistonPropertiesPanel.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.PivotPropertiesPanel.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.PulleyPropertiesPanel.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.TouchPropertiesPanel.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.WeldPropertiesPanel.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.WheelPropertiesPanel.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.PhysicBodyEditorView.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.PhysicBodyProperties.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.SceneEditorView.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Properties.Resources.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.TexturesPanel.resources
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\John\Desktop\CoronaGameEditor_LAST\CoronaGameEditor\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\Fred\Desktop\CoronaGameEditor\CoronaGameEditor\bin\Debug\CoronaGameEditor.exe.config
+C:\Users\Fred\Desktop\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.exe
+C:\Users\Fred\Desktop\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.pdb
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\bin\Debug\CoronaGameEditor.exe.config
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.exe
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.pdb
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\bin\Debug\SciLexer.dll
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\bin\Debug\SciLexerx64.dll
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\bin\Debug\License.txt
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\bin\Debug\CoronaGameEditor.exe
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\bin\Debug\CoronaGameEditor.pdb
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\bin\Debug\GeometryUtility.dll
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\bin\Debug\GoogleTranslateAPI.dll
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\bin\Debug\PolygonCuttingEar.dll
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\bin\Debug\ScintillaNet.dll
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\bin\Debug\SyntaxHighlightingTextBox.dll
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\bin\Debug\GeometryUtility.pdb
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\bin\Debug\PolygonCuttingEar.pdb
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\bin\Debug\ScintillaNet.pdb
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.AssetManager.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Asset_Manager.AudioManagerPanel.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Asset_Manager.ImageManagerPanel.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Asset_Manager.SpriteManagerPanel.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Asset_Manager.SpriteSetManagerPanel.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.SpriteSheetManagerPanel.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.SpriteSetPictBx.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.CodeEditor.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.CGEeditor.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.DocumentForm.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.CodeManager.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.CollisionMask.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Form1.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameElementTreeView.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.ImageObjectsPanel.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.JointurePropertiesPanel.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.LanguageManager.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.NewProject.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.DistancePropertiesPanel.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.FrictionPropertiesPanel.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.PistonPropertiesPanel.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.PivotPropertiesPanel.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.PulleyPropertiesPanel.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.TouchPropertiesPanel.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.WeldPropertiesPanel.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.WheelPropertiesPanel.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.PhysicBodyEditorView.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.PhysicBodyProperties.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.SceneEditorView.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.ScenePreview.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.TilesMapping.TilesManagerPanel.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.TilesMapping.TilesMapEditor.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Properties.Resources.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.SplashScreen.resources
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\bin\Debug\CGEAutoUpdate.exe
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\bin\Debug\CGEAutoUpdate.pdb
+C:\Users\John\Desktop\New folder (2)\CoronaGameEditor\CoronaGameEditor\bin\Debug\Version.txt
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\SciLexer.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\SciLexerx64.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\License.txt
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Lua Repository\fpsanalyser.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Lua Repository\generator.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Lua Repository\joystick.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Lua Template\main.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Lua Template\scene.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Lua Repository\object.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Lua Repository\rosetta.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Lua Repository\soundengine.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Lua Repository\tabbar.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Lua Repository\tilesmap.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Lua Repository\ui.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Lua Repository\mobileeditorengine.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Lua Template\scene_editormobile.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Lua Repository\pathfollow.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Lua Template\snippet.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\LuaDoc\index.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\LuaDoc\luadoc.css
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\LuaDoc\modules\fpsanalyser.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\LuaDoc\modules\fstar.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\LuaDoc\modules\generator.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\LuaDoc\modules\joystick.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\LuaDoc\modules\mobileeditorengine.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\LuaDoc\modules\object.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\LuaDoc\modules\pathfollow.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\LuaDoc\modules\radar.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\LuaDoc\modules\rosetta.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\LuaDoc\modules\soundengine.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\LuaDoc\modules\tabbar.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\LuaDoc\modules\tilesmap.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\LuaDoc\modules\ui.html
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\TilesMap\ObjectSheets\TileA_32x32.png
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\TilesMap\ObjectSheets\TileB_32x32.png
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\TilesMap\ObjectSheets\TileC_32x32.png
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\TilesMap\ObjectSheets\TileD_32x32.png
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\TilesMap\ObjectSheets\TileE_32x32.png
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\TilesMap\ObjectSheets\TileF_32x32.png
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\TilesMap\TextureSheets\TileA3_32x32.png
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\TilesMap\TextureSheets\TileA4_32x32.png
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\TilesMap\TextureSheets\TileA5_32x32.png
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Lua Repository\fstar.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Lua Repository\radar.lua
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\resolutions.txt
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Settings1.settings
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Resources\Icone PNG CGE\Icon.png
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Version.txt
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Settings1.Designer.cs
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\CoronaGameEditor.exe.config
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\CoronaGameEditor.exe
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\CoronaGameEditor.pdb
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\CGEAutoUpdate.exe
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\GeometryUtility.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Ionic.Zip.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\PolygonCuttingEar.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\ScintillaNet.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\SyntaxHighlightingTextBox.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\CGEAutoUpdate.pdb
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\GeometryUtility.pdb
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\PolygonCuttingEar.pdb
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\ScintillaNet.pdb
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.csproj.ResolveComReference.cache
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.g.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.AssetManager.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Asset_Manager.AudioManagerPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Asset_Manager.ImageManagerPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Asset_Manager.SnippetManagerPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Asset_Manager.SpriteManagerPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Asset_Manager.SpriteSetManagerPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.SpriteSheetManagerPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.SpriteSetPictBx.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.AppSettingsManager.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.CGEeditor.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.CodeEditor.CoronaAPIPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.SnippetEditor.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.DocumentForm.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.CollisionManager.CollisionManager.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Form1.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameElementTreeView.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.GraduationBar.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.ImageObjectsPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.JointurePropertiesPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.LanguageManager.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.NewProject.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.DistancePropertiesPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.FrictionPropertiesPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.PistonPropertiesPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.PivotPropertiesPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.PulleyPropertiesPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.TouchPropertiesPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.WeldPropertiesPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Jointures_Properties.WheelPropertiesPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Widgets.PanelPickerWheel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.Panel_Widgets.PanelTabBar.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.PhysicBodyEditorView.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.PhysicBodyProperties.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.SceneEditorView.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.ScenePreview.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Security.securityManager.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.SplashScreen.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.StartUp.StartUpPage.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.TilesMapping.TilesManagerPanel.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.TilesMapping.TilesMapEditor.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.Properties.Resources.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.exe
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.pdb
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\CoronaGameEditor.GameEditor.AboutKrea.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\bin\Debug\Krea.exe.config
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\Krea.g.resources
+C:\Users\Fred\Documents\Visual Studio 2010\Projects\CoronaGameEditor\CoronaGameEditor\obj\x86\Debug\Krea.Properties.Resources.resources

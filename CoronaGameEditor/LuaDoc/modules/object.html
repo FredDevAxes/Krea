@@ -1,0 +1,452 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <title>Reference</title>
+    <link rel="stylesheet" href="../luadoc.css" type="text/css" />
+	<!--meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/-->
+</head>
+
+<body>
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+<div id="main">
+
+<div id="navigation">
+
+
+<h1>LuaDoc</h1>
+<ul>
+	
+	<li><a href="../index.html">Index</a></li>
+	
+</ul>
+
+
+<!-- Module list -->
+
+<h1>Modules</h1>
+<ul>
+
+	<li>
+		<a href="../modules/fpsanalyser.html">fpsanalyser</a>
+	</li>
+
+	<li>
+		<a href="../modules/fstar.html">fstar</a>
+	</li>
+
+	<li>
+		<a href="../modules/generator.html">generator</a>
+	</li>
+
+	<li>
+		<a href="../modules/joystick.html">joystick</a>
+	</li>
+
+	<li>
+		<a href="../modules/mobileeditorengine.html">mobileeditorengine</a>
+	</li>
+
+	<li><strong>object</strong></li>
+	
+	<li>
+		<a href="../modules/pathfollow.html">pathfollow</a>
+	</li>
+
+	<li>
+		<a href="../modules/radar.html">radar</a>
+	</li>
+
+	<li>
+		<a href="../modules/rosetta.html">rosetta</a>
+	</li>
+
+	<li>
+		<a href="../modules/soundengine.html">soundengine</a>
+	</li>
+
+	<li>
+		<a href="../modules/tilesmap.html">tilesmap</a>
+	</li>
+
+</ul>
+
+
+
+<!-- File list -->
+
+
+
+
+
+
+</div><!-- id="navigation" -->
+
+<div id="content">
+
+<h1>Module <code>object</code></h1>
+
+<p>Object is a generic class to create a corona display object. <br>Changing the content of this file is at your own risk. As the software Krea uses this file to auto-generate code, it can create errors during generation if you change his content.</br></p>
+
+<p>Copyright &copy; Native-Software 2012 - All Rights Reserved.</p>
+
+
+<p><b>Author:</b>
+<table class="authors_list">
+
+	<tr><td class="name">Frederic Raimondi</td></tr>
+
+</table>
+</p>
+
+
+
+<p><b>Release:</b> 1.0
+</p>
+
+
+
+<h2>Functions</h2>
+<table class="function_list">
+
+	<tr>
+	<td class="name" nowrap><a href="#Object.create">Object.create</a>&nbsp;(params)</td>
+	<td class="summary">Create a new Object Instance </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#Object:clean">Object:clean</a>&nbsp;()</td>
+	<td class="summary">Clean the current object Instance </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#Object:clone">Object:clone</a>&nbsp;()</td>
+	<td class="summary">Clone the instance of this object </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#Object:pauseInteractions">Object:pauseInteractions</a>&nbsp;()</td>
+	<td class="summary">Pause the interactions of the object </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#Object:setOnDeleteBehaviour">Object:setOnDeleteBehaviour</a>&nbsp;(handle)</td>
+	<td class="summary">Set the object behaviour at clean </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#Object:setOnPauseBehaviour">Object:setOnPauseBehaviour</a>&nbsp;(handle)</td>
+	<td class="summary">Set the object behaviour at pause Interaction </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#Object:setOnStartBehaviour">Object:setOnStartBehaviour</a>&nbsp;(handle)</td>
+	<td class="summary">Set the object behaviour at start Interaction </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#Object:startInteractions">Object:startInteractions</a>&nbsp;()</td>
+	<td class="summary">Start the interactions of the object </td>
+	</tr>
+
+</table>
+
+
+
+<h2>Tables</h2>
+<table class="table_list">
+
+	<tr>
+	<td class="name" nowrap><a href="#Fields">Fields</a></td>
+	<td class="summary">Members of the Object Instance </td>
+	</tr>
+
+</table>
+
+
+
+<br/>
+<br/>
+
+
+
+<h2><a name="functions"></a>Functions</h2>
+<dl class="function">
+
+
+
+<dt><a name="Object.create"></a><strong>Object.create</strong>&nbsp;(params)</dt>
+<dd>
+Create a new Object Instance
+
+
+<h3>Parameters:</h3>
+<ul>
+	
+	<li>
+	  <code><em>params</em></code>: Lua Table containing the params
+	</li>
+	
+</ul>
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage to create a Rectangle: <ul> <li><code>local params = {} <br>params.name = "name" <br>params.type = "RECTANGLE" <br>params.isRounded = true <br>params.cornerRadius = 5 <br>params.x = -50 <br>params.y = background.contentWidth *(0.5) <br>params.width = 100 <br>params.height = 10 <br>params.displayGroupParent = layer1 <br>params.alpha = 0.1 <br>params.backColor = { R = 0,G = 0,B = 250} <br>params.strokeColor = { R = 0,G = 0,B = 250} <br>params.strokeWidth = 2 <li> local rectangleInstance = require("object").Object.create(params)</code></li> </ul> <br>Usage to create a Circle: <ul> <li><code>local params = {} <br>params.name = "name" <br>params.type = "CIRCLE" <br>params.x = -50 <br>params.y = background.contentWidth *(0.5) <br>params.radius = 100 <br>params.displayGroupParent = layer1 <br>params.alpha = 0.1 <br>params.backColor = { R = 0,G = 0,B = 250} <br>params.strokeColor = { R = 0,G = 0,B = 250} <br>params.strokeWidth = 2 <li> local circleInstance = require("object").Object.create(params)</code></li> </ul> <br>Usage to create a Line: <ul> <li><code>local params = {} <br>params.name = "name" <br>params.type = "LINE" <br>params.x1 = -50 <br>params.y1 = 100 <br>params.x2 = -200 <br>params.y2 = 100 <br>params.displayGroupParent = layer1 <br>params.alpha = 0.1 <br>params.backColor = { R = 0,G = 0,B = 250} <br>params.strokeWidth = 2 <li> local lineInstance = require("object").Object.create(params)</code></li> </ul> <br>Usage to create an Image: <ul> <li><code>local params = {} <br>params.name = "name" <br>params.type = "IMAGE" <br>params.x = -50 <br>params.y = background.contentWidth *(0.5) <br>params.width = 100 <br>params.height = 10 <br>params.displayGroupParent = layer1 <br>params.alpha = 0.1 <br>params.pathImage = "objet.png" <li> local imageInstance = require("object").Object.create(params)</code></li> </ul> <br>Usage to create a Sprite: <ul> <li><code>local params = {} <br>params.name = "name" <br>params.type = "SPRITE" <br>params.x = -50 <br>params.y = background.contentWidth *(0.5) <br>params.spriteSet = spriteSet <br>params.displayGroupParent = layer1 <br>params.alpha = 0.1 <li> local spriteInstance = require("object").Object.create(params)</code></li> </ul> <br>Usage to create a Curve: <ul> <li><code>local params = {} <br>params.name = "name" <br>params.type = "CURVE" <br>params.tabPoints = {x1,y1,x2,y2,...} <br>params.displayGroupParent = layer1 <br>params.alpha = 0.1 <br>params.strokeColor = { R = 0,G = 0,B = 250} <br>params.strokeWidth = 2 <li> local curveInstance = require("object").Object.create(params)</code></li> </ul> <br>Usage to create a Text: <ul> <li><code>local params = {} <br>params.name = "name" <br>params.type = "TEXT" <br>params.x = -50 <br>params.y = background.contentWidth *(0.5) <br>params.displayGroupParent = layer1 <br>params.text = "text" <br>params.alpha = 0.1 <br>params.textColor = { R = 0,G = 0,B = 250} <br>params.textSize = 2 <li> local curveInstance = require("object").Object.create(params)</code></li> </ul></pre></ul>
+
+
+
+<h3>Return value:</h3>
+<ul>Return a new Object Instance</ul>
+
+
+
+</dd>
+
+
+
+
+<dt><a name="Object:clean"></a><strong>Object:clean</strong>&nbsp;()</dt>
+<dd>
+Clean the current object Instance
+
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>objectInstance:clean()</li> <li>objectInstance = nil</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="Object:clone"></a><strong>Object:clone</strong>&nbsp;()</dt>
+<dd>
+Clone the instance of this object
+
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>objectInstance:clone()</code></li> </ul></pre></ul>
+
+
+
+<h3>Return value:</h3>
+<ul>Object The new clone of the object</ul>
+
+
+
+</dd>
+
+
+
+
+<dt><a name="Object:pauseInteractions"></a><strong>Object:pauseInteractions</strong>&nbsp;()</dt>
+<dd>
+Pause the interactions of the object
+
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>objectInstance:pauseInteractions()</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="Object:setOnDeleteBehaviour"></a><strong>Object:setOnDeleteBehaviour</strong>&nbsp;(handle)</dt>
+<dd>
+Set the object behaviour at clean
+
+
+<h3>Parameters:</h3>
+<ul>
+	
+	<li>
+	  <code><em>handle</em></code>: Handle function
+	</li>
+	
+</ul>
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>objectInstance:setOnDeleteBehaviour(handle)</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="Object:setOnPauseBehaviour"></a><strong>Object:setOnPauseBehaviour</strong>&nbsp;(handle)</dt>
+<dd>
+Set the object behaviour at pause Interaction
+
+
+<h3>Parameters:</h3>
+<ul>
+	
+	<li>
+	  <code><em>handle</em></code>: Handle function
+	</li>
+	
+</ul>
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>objectInstance:setOnPauseBehaviour(handle)</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="Object:setOnStartBehaviour"></a><strong>Object:setOnStartBehaviour</strong>&nbsp;(handle)</dt>
+<dd>
+Set the object behaviour at start Interaction
+
+
+<h3>Parameters:</h3>
+<ul>
+	
+	<li>
+	  <code><em>handle</em></code>: Handle function
+	</li>
+	
+</ul>
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>objectInstance:setOnStartBehaviour(handle)</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="Object:startInteractions"></a><strong>Object:startInteractions</strong>&nbsp;()</dt>
+<dd>
+Start the interactions of the object
+
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>objectInstance:startInteractions()</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+</dl>
+
+
+
+
+<h2><a name="tables"></a>Tables</h2>
+<dl class="table">
+
+<dt><a name="Fields"></a><strong>Fields</strong></dt>
+<dd>Members of the Object Instance<br /><br />
+
+
+<h3>Fields:</h3>
+<ul>
+	
+	<li>
+	  <code><em>name</em></code>: The name of the object instance
+	</li>
+	
+	<li>
+	  <code><em>object</em></code>: The Corona display object of the object instance
+	</li>
+	
+	<li>
+	  <code><em>displayGroupParent</em></code>: The display group where is stored the display object
+	</li>
+	
+	<li>
+	  <code><em>params</em></code>: The table params used to create the object instance
+	</li>
+	
+	<li>
+	  <code><em>type</em></code>: The display object type of the object instance
+	</li>
+	
+	<li>
+	  <code><em>xOrigin</em></code>: The x origin location of the object instance
+	</li>
+	
+	<li>
+	  <code><em>yOrigin</em></code>: The y origin location of the object instance
+	</li>
+	
+	<li>
+	  <code><em>hasBody</em></code>: Boolean that indicates whether the display object has a physics body or not
+	</li>
+	
+</ul>
+
+
+</dd>
+
+
+</dl>
+
+
+
+</div> <!-- id="content" -->
+
+</div> <!-- id="main" -->
+
+<div id="about">
+	<p><a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0!" height="31" width="88" /></a></p>
+</div> <!-- id="about" -->
+
+</div> <!-- id="container" -->	
+</body>
+</html>

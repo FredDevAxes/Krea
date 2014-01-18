@@ -1,0 +1,794 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <title>Reference</title>
+    <link rel="stylesheet" href="../luadoc.css" type="text/css" />
+	<!--meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/-->
+</head>
+
+<body>
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+<div id="main">
+
+<div id="navigation">
+
+
+<h1>LuaDoc</h1>
+<ul>
+	
+	<li><a href="../index.html">Index</a></li>
+	
+</ul>
+
+
+<!-- Module list -->
+
+<h1>Modules</h1>
+<ul>
+
+	<li>
+		<a href="../modules/fpsanalyser.html">fpsanalyser</a>
+	</li>
+
+	<li>
+		<a href="../modules/fstar.html">fstar</a>
+	</li>
+
+	<li>
+		<a href="../modules/generator.html">generator</a>
+	</li>
+
+	<li>
+		<a href="../modules/joystick.html">joystick</a>
+	</li>
+
+	<li>
+		<a href="../modules/mobileeditorengine.html">mobileeditorengine</a>
+	</li>
+
+	<li>
+		<a href="../modules/object.html">object</a>
+	</li>
+
+	<li>
+		<a href="../modules/pathfollow.html">pathfollow</a>
+	</li>
+
+	<li>
+		<a href="../modules/radar.html">radar</a>
+	</li>
+
+	<li>
+		<a href="../modules/rosetta.html">rosetta</a>
+	</li>
+
+	<li>
+		<a href="../modules/soundengine.html">soundengine</a>
+	</li>
+
+	<li>
+		<a href="../modules/tabbar.html">tabbar</a>
+	</li>
+
+	<li>
+		<a href="../modules/tilesmap.html">tilesmap</a>
+	</li>
+
+	<li>
+		<a href="../modules/ui.html">ui</a>
+	</li>
+
+</ul>
+
+
+
+<!-- File list -->
+
+<h1>Files</h1>
+<ul>
+
+	<li>
+		<a href="../files/fpsanalyser.html">fpsanalyser.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/fstar.html">fstar.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/generator.html">generator.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/joystick.html">joystick.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/mobileeditorengine.html">mobileeditorengine.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/object.html">object.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/pathfollow.html">pathfollow.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/radar.html">radar.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/rosetta.html">rosetta.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/soundengine.html">soundengine.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/tabbar.html">tabbar.lua</a>
+	</li>
+
+	<li><strong>tilesmap.lua</strong></li>
+	
+	<li>
+		<a href="../files/ui.html">ui.lua</a>
+	</li>
+
+</ul>
+
+
+
+
+
+
+</div> <!-- id="navigation" -->
+
+<div id="content">
+
+<h1>File <code>tilesmap.lua</code></h1>
+
+
+<p>Tilesmap is a module providing the possibility to add into a project the concept of TilesMap. <br>This one has a real interest if you want a big world in your project without using too much the memory. <br>Changing the content of this file is at your own risk. As the software Krea uses this file to auto-generate code, it can create errors during generation if you change his content.</br></p>
+
+
+<p><b>Author:</b>
+<table class="authors_list">
+
+	<tr><td class="name">Frédéric Raimondi</td></tr>
+
+</table>
+</p>
+
+
+<p>Copyright &copy;Native-Software 2012 - All Rights Reserved.</p>
+
+
+<p><small><b>Release:</b> 1.0</small></p>
+
+
+
+<h2>Functions</h2>
+<table class="function_list">
+
+	<tr>
+	<td class="name" nowrap><a href="#TilesMap.create">TilesMap.create</a>&nbsp;(params)</td>
+	<td class="summary">Create a new TilesMap Engine Instance </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#TilesMap:addExternalObjectToInteractWith">TilesMap:addExternalObjectToInteractWith</a>&nbsp;(objectInstance)</td>
+	<td class="summary">Add an object instance (see object) to the list of object the tilesmap should interacts with.</td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#TilesMap:clean">TilesMap:clean</a>&nbsp;()</td>
+	<td class="summary">Clean the current TilesMap Instance </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#TilesMap:getTile">TilesMap:getTile</a>&nbsp;(locationX, locationY)</td>
+	<td class="summary">Get a tile instance at loaction X and Y </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#TilesMap:loadContentFiles">TilesMap:loadContentFiles</a>&nbsp;()</td>
+	<td class="summary">Load the content of the tilesmap by loading data from contentFiles </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#TilesMap:loadFramesIndexImageObjects">TilesMap:loadFramesIndexImageObjects</a>&nbsp;()</td>
+	<td class="summary">Load the object tiles state from file </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#TilesMap:loadFramesIndexTextures">TilesMap:loadFramesIndexTextures</a>&nbsp;()</td>
+	<td class="summary">Load the Texture tiles state from file </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#TilesMap:loadTilesCollisionFile">TilesMap:loadTilesCollisionFile</a>&nbsp;()</td>
+	<td class="summary">Load the collision tiles state from file </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#TilesMap:moveTiles">TilesMap:moveTiles</a>&nbsp;(xOffset, yOffset)</td>
+	<td class="summary">Move the tiles by the x and y offset </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#TilesMap:pause">TilesMap:pause</a>&nbsp;()</td>
+	<td class="summary">Pause the TilesMap refresh </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#TilesMap:populate">TilesMap:populate</a>&nbsp;()</td>
+	<td class="summary">Populate the grid of tiles by rectangle sprites </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#TilesMap:saveCollisionContentFile">TilesMap:saveCollisionContentFile</a>&nbsp;()</td>
+	<td class="summary">Save the current collision tiles state </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#TilesMap:saveFramesIndexTextures">TilesMap:saveFramesIndexTextures</a>&nbsp;()</td>
+	<td class="summary">Save the current Texture tiles state </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#TilesMap:saveFramesObjectsTextures">TilesMap:saveFramesObjectsTextures</a>&nbsp;()</td>
+	<td class="summary">Save the object tiles state </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#TilesMap:setAutoScrollActive">TilesMap:setAutoScrollActive</a>&nbsp;(objectToFolow)</td>
+	<td class="summary">Set the auto scroll active by following an object passed in parameter </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#TilesMap:setAutoScrollInactive">TilesMap:setAutoScrollInactive</a>&nbsp;()</td>
+	<td class="summary">Set the auto scroll inactive </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#TilesMap:setDragActive">TilesMap:setDragActive</a>&nbsp;()</td>
+	<td class="summary">Set the drag active </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#TilesMap:setDragInactive">TilesMap:setDragInactive</a>&nbsp;()</td>
+	<td class="summary">Set the drag inactive </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#TilesMap:start">TilesMap:start</a>&nbsp;()</td>
+	<td class="summary">Start the TilesMap refresh by loading its content from the contentTextFile needed </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#TilesMap:updateDisplay">TilesMap:updateDisplay</a>&nbsp;()</td>
+	<td class="summary">Align and update the display object grid based on the current scroll position </td>
+	</tr>
+
+</table>
+
+
+
+
+
+
+<br/>
+<br/>
+
+
+
+
+<h2><a name="functions"></a>Functions</h2>
+<dl class="function">
+
+
+
+<dt><a name="TilesMap.create"></a><strong>TilesMap.create</strong>&nbsp;(params)</dt>
+<dd>
+Create a new TilesMap Engine Instance
+
+
+<h3>Parameters:</h3>
+<ul>
+	
+	<li>
+	  <code><em>params</em></code>: Lua Table containing the params
+	</li>
+	
+</ul>
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>local params = {} <br>params.name = "name" <br>params.displayGroupParent = layer1 <br>params.isInfinite = true <br>params.xPos = 0 <br>params.yPos = 0</li> <li> local tilesMapEngine = require("tilesmap").TilesMap.create(params)</code></li> </ul></pre></ul>
+
+
+
+<h3>Return value:</h3>
+<ul>Return a TilesMap Engine Instance</ul>
+
+
+
+</dd>
+
+
+
+
+<dt><a name="TilesMap:addExternalObjectToInteractWith"></a><strong>TilesMap:addExternalObjectToInteractWith</strong>&nbsp;(objectInstance)</dt>
+<dd>
+Add an object instance (see object) to the list of object the tilesmap should interacts with. This make an object handled by the tilesmap.
+
+
+<h3>Parameters:</h3>
+<ul>
+	
+	<li>
+	  <code><em>objectInstance</em></code>: An object previoulsy created via require("object").Object.create(params)
+	</li>
+	
+</ul>
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>tilesMapEngine:addExternalObjectToInteractWith(objectInstance)</code></li> </ul></pre></ul>
+
+
+
+
+
+<h3>See also:</h3>
+<ul>
+	
+	<!-- <li><a href="#../modules/object.htmlobject"> -->
+	<li><a href="#object">
+		object</li>
+	</a>
+	
+</ul>
+
+</dd>
+
+
+
+
+<dt><a name="TilesMap:clean"></a><strong>TilesMap:clean</strong>&nbsp;()</dt>
+<dd>
+Clean the current TilesMap Instance
+
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>tilesMapEngine:clean()</li> <li>tilesMapEngine = nil</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="TilesMap:getTile"></a><strong>TilesMap:getTile</strong>&nbsp;(locationX, locationY)</dt>
+<dd>
+Get a tile instance at loaction X and Y
+
+
+<h3>Parameters:</h3>
+<ul>
+	
+	<li>
+	  <code><em>locationX</em></code>: The location on the x-axis
+	</li>
+	
+	<li>
+	  <code><em>locationY</em></code>: The location on the y-axis
+	</li>
+	
+</ul>
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>tilesMapEngine:getTile(locationX,locationY) </code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="TilesMap:loadContentFiles"></a><strong>TilesMap:loadContentFiles</strong>&nbsp;()</dt>
+<dd>
+Load the content of the tilesmap by loading data from contentFiles
+
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>tilesMapEngine:loadContentFiles()</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="TilesMap:loadFramesIndexImageObjects"></a><strong>TilesMap:loadFramesIndexImageObjects</strong>&nbsp;()</dt>
+<dd>
+Load the object tiles state from file
+
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>tilesMapEngine:loadFramesIndexImageObjects()</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="TilesMap:loadFramesIndexTextures"></a><strong>TilesMap:loadFramesIndexTextures</strong>&nbsp;()</dt>
+<dd>
+Load the Texture tiles state from file
+
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>tilesMapEngine:loadFramesIndexTextures()</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="TilesMap:loadTilesCollisionFile"></a><strong>TilesMap:loadTilesCollisionFile</strong>&nbsp;()</dt>
+<dd>
+Load the collision tiles state from file
+
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>tilesMapEngine:loadTilesCollisionFile()</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="TilesMap:moveTiles"></a><strong>TilesMap:moveTiles</strong>&nbsp;(xOffset, yOffset)</dt>
+<dd>
+Move the tiles by the x and y offset
+
+
+<h3>Parameters:</h3>
+<ul>
+	
+	<li>
+	  <code><em>xOffset</em></code>: The offset on the x-axis
+	</li>
+	
+	<li>
+	  <code><em>yOffset</em></code>: The offset on the y-axis
+	</li>
+	
+</ul>
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>tilesMapEngine:updateDisplay()</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="TilesMap:pause"></a><strong>TilesMap:pause</strong>&nbsp;()</dt>
+<dd>
+Pause the TilesMap refresh
+
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>tilesMapEngine:pause()</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="TilesMap:populate"></a><strong>TilesMap:populate</strong>&nbsp;()</dt>
+<dd>
+Populate the grid of tiles by rectangle sprites
+
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>tilesMapEngine:populate()</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="TilesMap:saveCollisionContentFile"></a><strong>TilesMap:saveCollisionContentFile</strong>&nbsp;()</dt>
+<dd>
+Save the current collision tiles state
+
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>tilesMapEngine:saveCollisionContentFile()</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="TilesMap:saveFramesIndexTextures"></a><strong>TilesMap:saveFramesIndexTextures</strong>&nbsp;()</dt>
+<dd>
+Save the current Texture tiles state
+
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>tilesMapEngine:saveFramesIndexTextures()</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="TilesMap:saveFramesObjectsTextures"></a><strong>TilesMap:saveFramesObjectsTextures</strong>&nbsp;()</dt>
+<dd>
+Save the object tiles state
+
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>tilesMapEngine:saveFramesObjectsTextures()</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="TilesMap:setAutoScrollActive"></a><strong>TilesMap:setAutoScrollActive</strong>&nbsp;(objectToFolow)</dt>
+<dd>
+Set the auto scroll active by following an object passed in parameter
+
+
+<h3>Parameters:</h3>
+<ul>
+	
+	<li>
+	  <code><em>objectToFolow</em></code>: An object to follow previoulsy created via require("object").Object.create(params)
+	</li>
+	
+</ul>
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>tilesMapEngine:setAutoScrollActive(objectInstance)</code></li> </ul></pre></ul>
+
+
+
+
+
+<h3>See also:</h3>
+<ul>
+	
+	<!-- <li><a href="#../modules/object.htmlobject"> -->
+	<li><a href="#object">
+		object</li>
+	</a>
+	
+</ul>
+
+</dd>
+
+
+
+
+<dt><a name="TilesMap:setAutoScrollInactive"></a><strong>TilesMap:setAutoScrollInactive</strong>&nbsp;()</dt>
+<dd>
+Set the auto scroll inactive
+
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>tilesMapEngine:setAutoScrollInactive()</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="TilesMap:setDragActive"></a><strong>TilesMap:setDragActive</strong>&nbsp;()</dt>
+<dd>
+Set the drag active
+
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>tilesMapEngine:setDragActive()</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="TilesMap:setDragInactive"></a><strong>TilesMap:setDragInactive</strong>&nbsp;()</dt>
+<dd>
+Set the drag inactive
+
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>tilesMapEngine:setDragInactive()</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="TilesMap:start"></a><strong>TilesMap:start</strong>&nbsp;()</dt>
+<dd>
+Start the TilesMap refresh by loading its content from the contentTextFile needed
+
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>tilesMapEngine:start()</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="TilesMap:updateDisplay"></a><strong>TilesMap:updateDisplay</strong>&nbsp;()</dt>
+<dd>
+Align and update the display object grid based on the current scroll position
+
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>tilesMapEngine:updateDisplay()</code></li> </ul> </pre></ul>
+
+
+
+
+
+</dd>
+
+
+</dl>
+
+
+
+
+
+
+
+</div> <!-- id="content" -->
+
+</div> <!-- id="main" -->
+
+<div id="about">
+	<p><a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0!" height="31" width="88" /></a></p>
+</div> <!-- id="about" -->
+
+</div> <!-- id="container" -->	
+</body>
+</html>

@@ -1,0 +1,1772 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C1C71232-63E5-49EA-80EC-00651C3C381D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Krea</RootNamespace>
+    <AssemblyName>Krea</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>http://www.native-software.com/index.php/krea</SupportUrl>
+    <ErrorReportUrl>http://www.native-software.com/index.php/krea/support/reportbugs</ErrorReportUrl>
+    <TargetCulture>en-GB</TargetCulture>
+    <ProductName>Krea</ProductName>
+    <PublisherName>Native-Software</PublisherName>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>0.0.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>9301710A2E24E690B82DABB14314B80AA5CB4C2E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GeometryUtility, Version=1.0.4837.41039, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\GeometryUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.Core, Version=1.7.0.0, Culture=neutral, PublicKeyToken=b85b9027b614afef" />
+    <Reference Include="GMap.NET.WindowsForms, Version=1.7.0.0, Culture=neutral, PublicKeyToken=b85b9027b614afef" />
+    <Reference Include="Gorgon, Version=1.1.4529.31450, Culture=neutral, PublicKeyToken=c001d94e9acbbee7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Gorgon.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>.\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="lua51, Version=0.0.0.0, Culture=neutral, PublicKeyToken=1e1fb15b02227b8a, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\lua51.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="NAudio">
+      <HintPath>.\NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.WindowsMediaFormat">
+      <HintPath>.\NAudio.WindowsMediaFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>.\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PolygonCuttingEar, Version=1.0.4757.6878, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\PolygonCuttingEar.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="ScintillaNet, Version=4.0.4837.41041, Culture=neutral, PublicKeyToken=948d6c9751444115, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\ScintillaNet.dll</HintPath>
+    </Reference>
+    <Reference Include="SdlDotNet">
+      <HintPath>.\SdlDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Design">
+      <HintPath>..\..\..\..\..\..\..\..\Windows\Microsoft.NET\Framework\v2.0.50727\System.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Runtime.InteropServices.APIs">
+      <HintPath>..\APIs\bin\debug\System.Runtime.InteropServices.APIs.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms.TreeListView, Version=1.0.4507.23570, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\System.Windows.Forms.TreeListView.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tao.Sdl">
+      <HintPath>.\Tao.Sdl.dll</HintPath>
+    </Reference>
+    <Reference Include="WeifenLuo.WinFormsUI.Docking">
+      <HintPath>..\Scintillia\SCide\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Asset Manager\AssetManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asset Manager\AssetManagerForm.Designer.cs">
+      <DependentUpon>AssetManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Asset Manager\Assets Property Converters\SequencePropertyConverter.cs" />
+    <Compile Include="Asset Manager\FontManagerPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Asset Manager\FontManagerPanel.designer.cs">
+      <DependentUpon>FontManagerPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Asset Manager\SpriteSheetAndTextureFuncs.cs" />
+    <Compile Include="Asset Manager\SpriteSheetLuaGenerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Asset Manager\Assets Property Converters\SpriteSheetPropertyConverter.cs" />
+    <Compile Include="Asset Manager\Assets Property Converters\SpriteSetPropertyConverter.cs" />
+    <Compile Include="Asset Manager\Assets Property Converters\SpritePropertyConverter.cs" />
+    <Compile Include="Asset Manager\Assets Property Converters\SnippetPropertyConverter.cs" />
+    <Compile Include="Asset Manager\Assets Property Converters\ImagePropertyConverter.cs" />
+    <Compile Include="Asset Manager\SerializerHelper.cs" />
+    <Compile Include="Asset Manager\SnippetManagerPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Asset Manager\SnippetManagerPanel.Designer.cs">
+      <DependentUpon>SnippetManagerPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Asset Manager\SpriteManagerPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Asset Manager\SpriteManagerPanel.Designer.cs">
+      <DependentUpon>SpriteManagerPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Asset Manager\SpriteSetManagerPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Asset Manager\SpriteSetManagerPanel.Designer.cs">
+      <DependentUpon>SpriteSetManagerPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Asset Manager\SpriteSheetManagerPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Asset Manager\SpriteSheetManagerPanel.Designer.cs">
+      <DependentUpon>SpriteSheetManagerPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Asset Manager\ImageManagerPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Asset Manager\ImageManagerPanel.Designer.cs">
+      <DependentUpon>ImageManagerPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Asset Manager\AudioManagerPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Asset Manager\AudioManagerPanel.designer.cs">
+      <DependentUpon>AudioManagerPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Asset Manager\AssetsToSerialize.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Asset Manager\SpriteSheetSplitter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Asset Manager\SpriteSheetSplitter.Designer.cs">
+      <DependentUpon>SpriteSheetSplitter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CGE_Figures\CourbeBezier.cs" />
+    <Compile Include="CGE_Figures\Rect.cs" />
+    <Compile Include="CGE_Figures\Cercle.cs" />
+    <Compile Include="CGE_Figures\Figure.cs" />
+    <Compile Include="CGE_Figures\Font2.cs" />
+    <Compile Include="CGE_Figures\Libre.cs" />
+    <Compile Include="CGE_Figures\Line.cs" />
+    <Compile Include="CGE_Figures\Polygone.cs" />
+    <Compile Include="CGE_Figures\Texte.cs" />
+    <Compile Include="Corona Classes\AudioObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\BitmapMask.cs" />
+    <Compile Include="Corona Classes\BodyElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\Camera.cs" />
+    <Compile Include="Corona Classes\ConfigField.cs" />
+    <Compile Include="Corona Classes\Controls\CoronaControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\Controls\JoystickControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\GorgonGraphicsHelper.cs" />
+    <Compile Include="Corona Classes\KreaProjectVersion.cs" />
+    <Compile Include="Corona Classes\CoronaAds.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\CoronaEntity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\CoronaEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\CoronaFunction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\CoronaGameBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\CoronaGameProject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\CoronaJointure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\CoronaLayer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\CoronaObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\CoronaSpriteSet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\CoronaSpriteSheet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\CoronaTimer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\CoronaVariable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\DisplayObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\FontNameGetter.cs" />
+    <Compile Include="Corona Classes\GradientColor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\LangueElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\LangueObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\PathFollow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\PhysicBodyLuaGenerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\PhysicsBody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\Scene.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\Snippet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\SpriteFrame.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\TransformBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\Widgets\CoronaWidget.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\Widgets\WidgetPickerWheel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corona Classes\Widgets\WidgetTabBar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Debugger\ASyncSocket.cs" />
+    <Compile Include="Debugger\Backtrace.cs" />
+    <Compile Include="Debugger\BreakPoint.cs" />
+    <Compile Include="Debugger\DebuggerPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Debugger\DebuggerPanel.Designer.cs">
+      <DependentUpon>DebuggerPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Debugger\Local.cs" />
+    <Compile Include="Debugger\luaparser.cs" />
+    <Compile Include="Debugger\ResponseBuilder.cs" />
+    <Compile Include="Debugger\Watch.cs" />
+    <Compile Include="GameEditor\AboutKrea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameEditor\AboutKrea.Designer.cs">
+      <DependentUpon>AboutKrea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\AnimationManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameEditor\AnimationManager.Designer.cs">
+      <DependentUpon>AnimationManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\AppSettingsManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\AppSettingsManager.Designer.cs">
+      <DependentUpon>AppSettingsManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\AssetsSelectorPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\AssetsSelectorPanel.Designer.cs">
+      <DependentUpon>AssetsSelectorPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\AudioPlayer\AudioPlayerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\AudioPlayer\AudioPlayerControl.Designer.cs">
+      <DependentUpon>AudioPlayerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\AudioPlayer\AudioPlayerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameEditor\AudioPlayer\AudioPlayerForm.Designer.cs">
+      <DependentUpon>AudioPlayerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\AudioPlayer\WaveformPainter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\AudioPlayer\WaveformPainter.Designer.cs">
+      <DependentUpon>WaveformPainter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\CodeEditor\APIElements\APICategory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\CodeEditor\APIElements\APIItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\CodeEditor\AutoCompleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameEditor\CodeEditor\AutoCompleteForm.Designer.cs">
+      <DependentUpon>AutoCompleteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\CodeEditor\AutoCompletionEngine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\CodeEditor\CGEeditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\CodeEditor\CGEeditor.designer.cs">
+      <DependentUpon>CGEeditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\CodeEditor\CoronaAPIPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\CodeEditor\CoronaAPIPanel.Designer.cs">
+      <DependentUpon>CoronaAPIPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\CodeEditor\DataTip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameEditor\CodeEditor\DataTip.Designer.cs">
+      <DependentUpon>DataTip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\CodeEditor\DocumentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameEditor\CodeEditor\DocumentForm.designer.cs">
+      <DependentUpon>DocumentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\CodeEditor\IniLexer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\CodeEditor\SnippetEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\CodeEditor\SnippetEditor.designer.cs">
+      <DependentUpon>SnippetEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\CollisionManager\CollisionableItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\CollisionManager\CollisionFilterGroup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\CollisionManager\CollisionManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\CollisionManager\CollisionManager.Designer.cs">
+      <DependentUpon>CollisionManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\Emulator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\FileExplorerControl\FileExplorer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\FileExplorerControl\FileExplorer.Designer.cs">
+      <DependentUpon>FileExplorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\FileExplorerControl\FileExplorerItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\FileExplorerControl\FolderExplorerItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\FontManager\FontItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameEditor\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\GameElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\GameElementTreeView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\GameElementTreeView.Designer.cs">
+      <DependentUpon>GameElementTreeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\GraduationBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\GraduationBar.Designer.cs">
+      <DependentUpon>GraduationBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\GraphicsContentManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\ImageResizer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\LanguageManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\LanguageManager.Designer.cs">
+      <DependentUpon>LanguageManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\LanguageManagerV2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\LanguageManagerV2.Designer.cs">
+      <DependentUpon>LanguageManagerV2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\ModifyRegistry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\Packing\ArevaloRectanglePacker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\Packing\CygonRectanglePacker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\Packing\OutOfSpaceException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\Packing\RectanglePacker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\Packing\SimpleRectanglePacker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\Panel Jointures Properties\DistancePropertiesPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\Panel Jointures Properties\DistancePropertiesPanel.Designer.cs">
+      <DependentUpon>DistancePropertiesPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\Panel Jointures Properties\FrictionPropertiesPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\Panel Jointures Properties\FrictionPropertiesPanel.designer.cs">
+      <DependentUpon>FrictionPropertiesPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\Panel Jointures Properties\PistonPropertiesPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\Panel Jointures Properties\PistonPropertiesPanel.Designer.cs">
+      <DependentUpon>PistonPropertiesPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\Panel Jointures Properties\PivotPropertiesPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\Panel Jointures Properties\PivotPropertiesPanel.Designer.cs">
+      <DependentUpon>PivotPropertiesPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\Panel Jointures Properties\PulleyPropertiesPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\Panel Jointures Properties\PulleyPropertiesPanel.designer.cs">
+      <DependentUpon>PulleyPropertiesPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\Panel Jointures Properties\TouchPropertiesPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\Panel Jointures Properties\TouchPropertiesPanel.designer.cs">
+      <DependentUpon>TouchPropertiesPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\Panel Jointures Properties\WeldPropertiesPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\Panel Jointures Properties\WeldPropertiesPanel.designer.cs">
+      <DependentUpon>WeldPropertiesPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\Panel Jointures Properties\WheelPropertiesPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\Panel Jointures Properties\WheelPropertiesPanel.designer.cs">
+      <DependentUpon>WheelPropertiesPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\Panel Widgets\PanelPickerWheel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\Panel Widgets\PanelPickerWheel.Designer.cs">
+      <DependentUpon>PanelPickerWheel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\Panel Widgets\PanelTabBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\Panel Widgets\PanelTabBar.Designer.cs">
+      <DependentUpon>PanelTabBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\PhysicBodyEditorView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PhysicBodyEditorView.Designer.cs">
+      <DependentUpon>PhysicBodyEditorView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\PhysicsBodySettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PhysicsBodySettings.Designer.cs">
+      <DependentUpon>PhysicsBodySettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\ProjectSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\ProjectSettings.Designer.cs">
+      <DependentUpon>ProjectSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\BodyElementPropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\CurvePropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\EntityPropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\FigurePropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\ImagePropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\JointsPropertyConverters\DistancePropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\JointsPropertyConverters\FrictionPropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\JointsPropertyConverters\PistonPropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\JointsPropertyConverters\PivotPropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\JointsPropertyConverters\PulleyPropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\JointsPropertyConverters\TouchPropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\JointsPropertyConverters\WeldPropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\JointsPropertyConverters\WheelPropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\JoystickPropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\LayerPropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\ObjectPropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\ProjectPropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\RectPropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\ScenePropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\SpritePropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\TextPropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\TilesMapPropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\WidgetsPropertyConverters\TabBarPropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridConverters\WidgetsPropertyConverters\WidgetPropertyConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridEditors\AdsProviderEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridEditors\CheckBoxEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridEditors\CollisionGroupPropertyEditor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridEditors\CollisionGroupPropertyEditor.Designer.cs">
+      <DependentUpon>CollisionGroupPropertyEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridEditors\FontPropertyEditor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridEditors\FontPropertyEditor.Designer.cs">
+      <DependentUpon>FontPropertyEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridEditors\GeneratorEmissionTypeEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridEditors\GradientDirectionEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridEditors\MergePropertyDescriptor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridEditors\ScreenOrientationEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridEditors\ShapeTypeEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridEditors\SliderPropertyEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridEditors\SliderPropertyEditor.Designer.cs">
+      <DependentUpon>SliderPropertyEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridEditors\SpriteSequencePropertyEditor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridEditors\SpriteSequencePropertyEditor.Designer.cs">
+      <DependentUpon>SpriteSequencePropertyEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridEditors\XAlignEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\PropertyGridEditors\YAlignEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\SceneEditorView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\SceneEditorView.Designer.cs">
+      <DependentUpon>SceneEditorView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\ScenePreview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\ScenePreview.Designer.cs">
+      <DependentUpon>ScenePreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\TargetResolution.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\TilesMapMobileEditor\TilesMapEditorMobile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\TilesMapping\JSONTileMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\TilesMapping\JSONTileSequence.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\TilesMapping\Tile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\TilesMapping\TileEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\TilesMapping\TileEventManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\TilesMapping\TileEventManager.Designer.cs">
+      <DependentUpon>TileEventManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\TilesMapping\TileModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\TilesMapping\TileProperties.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\TilesMapping\TileSequence.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\TilesMapping\TileSequenceManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\TilesMapping\TileSequenceManager.Designer.cs">
+      <DependentUpon>TileSequenceManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\TilesMapping\TileSheetModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\TilesMapping\TilesManagerPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\TilesMapping\TilesManagerPanel.Designer.cs">
+      <DependentUpon>TilesManagerPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\TilesMapping\TilesMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\TilesMapping\TilesMapDataSheetGenerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\TilesMapping\TilesMapEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameEditor\TilesMapping\TilesMapEditor.Designer.cs">
+      <DependentUpon>TilesMapEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEditor\TilesMapping\TilesSelection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\Undo Redo\ActionCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\Undo Redo\UndoRedoEngine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEditor\UndoRedo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="InstallerClass.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RemoteDebugger\AppRemoteController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RemoteDebugger\AppRemoteController.Designer.cs">
+      <DependentUpon>AppRemoteController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemoteDebugger\CompassView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RemoteDebugger\CompassView.Designer.cs">
+      <DependentUpon>CompassView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemoteDebugger\KeyView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RemoteDebugger\KeyView.Designer.cs">
+      <DependentUpon>KeyView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemoteDebugger\MapControl\CustomMarkers\GMapMarkerCircle.cs" />
+    <Compile Include="RemoteDebugger\MapControl\CustomMarkers\GMapMarkerRect.cs" />
+    <Compile Include="RemoteDebugger\MapControl\GoogleMapControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RemoteDebugger\MapControl\GoogleMapControl.designer.cs">
+      <DependentUpon>GoogleMapControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemoteDebugger\RemoteControllerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoteDebugger\RemoteControllerForm.Designer.cs">
+      <DependentUpon>RemoteControllerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemoteDebugger\RemoteEvent.cs" />
+    <Compile Include="RemoteDebugger\RemoteInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RemoteDebugger\RemoteInfo.Designer.cs">
+      <DependentUpon>RemoteInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\MicrosoftTranslator\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\opts\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Settings1.cs" />
+    <Compile Include="Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings1.settings</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Team\ProjectSerializer.cs" />
+    <Content Include="CodeEditorSnippets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Krea_Third_Party_Tool_Licences.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Dejavu.dll" />
+    <Content Include="lib\GeometryUtility.dll" />
+    <Content Include="lib\GMap.NET.Core.dll" />
+    <Content Include="lib\GMap.NET.WindowsForms.dll" />
+    <Content Include="lib\GoogleTranslateAPI.dll" />
+    <Content Include="lib\Gorgon.dll" />
+    <Content Include="lib\Gorgon.XML" />
+    <Content Include="lib\HTVisualizer.dll" />
+    <Content Include="lib\Ionic.Zip.dll" />
+    <Content Include="lib\Irony.dll" />
+    <Content Include="lib\lua51.dll" />
+    <Content Include="lib\LuaInterface.dll" />
+    <Content Include="lib\meehost.dll" />
+    <Content Include="lib\NAudio.dll" />
+    <Content Include="lib\NAudio.WindowsMediaFormat.dll" />
+    <Content Include="lib\NETXP.Controls.Docking.dll" />
+    <Content Include="lib\NETXP.Library.dll" />
+    <Content Include="lib\NETXP.Win32.dll" />
+    <Content Include="lib\Newtonsoft.Json.dll" />
+    <Content Include="lib\rdbglua51.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\rdbglua52.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\SciLexer.dll" />
+    <Content Include="lib\SciLexerx64.dll" />
+    <Content Include="lib\ScintillaNet.dll" />
+    <Content Include="lib\SDL.dll" />
+    <Content Include="lib\SdlDotNet.dll" />
+    <Content Include="lib\SyntaxHighlightingTextBox.dll" />
+    <Content Include="lib\Tao.Sdl.dll" />
+    <Content Include="lib\TreeViewMS.dll" />
+    <Content Include="Lua Repository\Krea Remote\remoteback.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\HowTo_ENGLISH.chm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="Asset Manager\SpriteSheetSplitter.resx">
+      <DependentUpon>SpriteSheetSplitter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\AboutKrea.resx">
+      <DependentUpon>AboutKrea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\AnimationManager.resx">
+      <DependentUpon>AnimationManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\AppSettingsManager.resx">
+      <DependentUpon>AppSettingsManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\AssetsSelectorPanel.resx">
+      <DependentUpon>AssetsSelectorPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\AudioPlayer\AudioPlayerControl.resx">
+      <DependentUpon>AudioPlayerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\AudioPlayer\AudioPlayerForm.resx">
+      <DependentUpon>AudioPlayerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\AudioPlayer\WaveformPainter.resx">
+      <DependentUpon>WaveformPainter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\CodeEditor\AutoCompleteForm.resx">
+      <DependentUpon>AutoCompleteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\CodeEditor\CGEeditor.resx">
+      <DependentUpon>CGEeditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\CodeEditor\CoronaAPIPanel.resx">
+      <DependentUpon>CoronaAPIPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\CodeEditor\DataTip.resx">
+      <DependentUpon>DataTip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\CodeEditor\DocumentForm.resx">
+      <DependentUpon>DocumentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\CodeEditor\SnippetEditor.resx">
+      <DependentUpon>SnippetEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\CollisionManager\CollisionManager.resx">
+      <DependentUpon>CollisionManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\FileExplorerControl\FileExplorer.resx">
+      <DependentUpon>FileExplorer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\GameElementTreeView.resx">
+      <DependentUpon>GameElementTreeView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\GraduationBar.resx">
+      <DependentUpon>GraduationBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\LanguageManager.resx">
+      <DependentUpon>LanguageManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\LanguageManagerV2.resx">
+      <DependentUpon>LanguageManagerV2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\Panel Jointures Properties\DistancePropertiesPanel.resx">
+      <DependentUpon>DistancePropertiesPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\Panel Jointures Properties\FrictionPropertiesPanel.resx">
+      <DependentUpon>FrictionPropertiesPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\Panel Jointures Properties\PistonPropertiesPanel.resx">
+      <DependentUpon>PistonPropertiesPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\Panel Jointures Properties\PivotPropertiesPanel.resx">
+      <DependentUpon>PivotPropertiesPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\Panel Jointures Properties\PulleyPropertiesPanel.resx">
+      <DependentUpon>PulleyPropertiesPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\Panel Jointures Properties\TouchPropertiesPanel.resx">
+      <DependentUpon>TouchPropertiesPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\Panel Jointures Properties\WeldPropertiesPanel.resx">
+      <DependentUpon>WeldPropertiesPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\Panel Jointures Properties\WheelPropertiesPanel.resx">
+      <DependentUpon>WheelPropertiesPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\Panel Widgets\PanelPickerWheel.resx">
+      <DependentUpon>PanelPickerWheel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\Panel Widgets\PanelTabBar.resx">
+      <DependentUpon>PanelTabBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\PhysicBodyEditorView.resx">
+      <DependentUpon>PhysicBodyEditorView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\PhysicsBodySettings.resx">
+      <DependentUpon>PhysicsBodySettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\ProjectSettings.resx">
+      <DependentUpon>ProjectSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\PropertyGridEditors\CollisionGroupPropertyEditor.resx">
+      <DependentUpon>CollisionGroupPropertyEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\PropertyGridEditors\FontPropertyEditor.resx">
+      <DependentUpon>FontPropertyEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\PropertyGridEditors\SliderPropertyEditor.resx">
+      <DependentUpon>SliderPropertyEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\PropertyGridEditors\SpriteSequencePropertyEditor.resx">
+      <DependentUpon>SpriteSequencePropertyEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\SceneEditorView.resx">
+      <DependentUpon>SceneEditorView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\ScenePreview.resx">
+      <DependentUpon>ScenePreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\TilesMapping\TileEventManager.resx">
+      <DependentUpon>TileEventManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\TilesMapping\TileSequenceManager.resx">
+      <DependentUpon>TileSequenceManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\TilesMapping\TilesManagerPanel.resx">
+      <DependentUpon>TilesManagerPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameEditor\TilesMapping\TilesMapEditor.resx">
+      <DependentUpon>TilesMapEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoteDebugger\RemoteInfo.resx">
+      <DependentUpon>RemoteInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="Lua Repository\camera.lua">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="GameEditor\app.config" />
+    <None Include="Lua Repository\debuggerengine.lua" />
+    <Content Include="Lua Repository\graph.lua">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lua Repository\entity.lua">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lua Repository\perfanalyser.lua">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Final Images\validateBlue.png" />
+    <None Include="Resources\Final Images\generatorTypeDisc.png" />
+    <None Include="Resources\Final Images\generatorTypeLine.png" />
+    <None Include="Resources\Final Images\generatorTypePoint.png" />
+    <None Include="Resources\Final Images\inmobi.png" />
+    <None Include="Resources\Final Images\inneractive.png" />
+    <None Include="Resources\Final Images\none.png" />
+    <None Include="Resources\Final Images\paysageIcon.png" />
+    <None Include="Resources\Final Images\portraitIcon.png" />
+    <None Include="Resources\Final Images\xAlignCenter.png" />
+    <None Include="Resources\Final Images\xAlignLeft.png" />
+    <None Include="Resources\Final Images\xAlignRight.png" />
+    <None Include="Resources\Final Images\yAlignBottom.png" />
+    <None Include="Resources\Final Images\yAlignCenter.png" />
+    <None Include="Resources\Final Images\yAlignTop.png" />
+    <None Include="Resources\Final Images\tilemapAllLayers.png" />
+    <None Include="Resources\Final Images\tilemapLayerEvent.png" />
+    <None Include="Resources\Final Images\tilemapLayerObject.png" />
+    <None Include="Resources\Final Images\tilemapLayerTexture.png" />
+    <None Include="Resources\Final Images\collisionIcon2.png" />
+    <None Include="Resources\Final Images\postCollisionIcon.png" />
+    <None Include="Resources\Final Images\preCollisionIcon.png" />
+    <None Include="Resources\Final Images\touchIcon.png" />
+    <None Include="Resources\Final Images\collisionIcon3.png" />
+    <None Include="Service References\opts\configuration91.svcinfo" />
+    <None Include="Service References\opts\configuration.svcinfo" />
+    <None Include="Service References\opts\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\Final Images\scanner.png" />
+    <None Include="Resources\Final Images\updateAssetIcon.png" />
+    <None Include="Resources\Final Images\remoteDisabled.png" />
+    <None Include="Resources\Final Images\remoteEnabled.png" />
+    <None Include="Resources\Final Images\pad.png" />
+    <None Include="Resources\Final Images\search.png" />
+    <None Include="Resources\Final Images\menuIcon.png" />
+    <None Include="Resources\Final Images\volumeDown.png" />
+    <None Include="Resources\Final Images\volumeUp.png" />
+    <None Include="Resources\Final Images\androidIcon.png" />
+    <None Include="Resources\Final Images\entityIcon.png" />
+    <None Include="Resources\Final Images\remotePub.png" />
+    <None Include="Resources\Final Images\recentProjectIcon.png" />
+    <None Include="Resources\Final Images\translateBingIcon.png" />
+    <None Include="Resources\Final Images\exportEntity.png" />
+    <None Include="Resources\Final Images\exportLayer.png" />
+    <None Include="Resources\Final Images\exportObject.png" />
+    <None Include="Resources\Final Images\importEntity.png" />
+    <None Include="Resources\Final Images\importLayer.png" />
+    <None Include="Resources\Final Images\importObject.png" />
+    <None Include="Resources\Final Images\importScene.png" />
+    <None Include="Resources\Final Images\unlock.png" />
+    <None Include="Resources\Final Images\spriteSheetSplitterIcon.png" />
+    <Content Include="sdldotnet-6.1.1beta-sdk-setup.exe" />
+    <Content Include="SlimDX-Runtime-.NET-2.0.msi" />
+    <Content Include="staticAPI.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="Asset Manager\AssetManagerForm.resx">
+      <DependentUpon>AssetManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asset Manager\FontManagerPanel.resx">
+      <DependentUpon>FontManagerPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asset Manager\SnippetManagerPanel.resx">
+      <DependentUpon>SnippetManagerPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asset Manager\SpriteManagerPanel.resx">
+      <DependentUpon>SpriteManagerPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asset Manager\SpriteSetManagerPanel.resx">
+      <DependentUpon>SpriteSetManagerPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asset Manager\SpriteSheetManagerPanel.resx">
+      <DependentUpon>SpriteSheetManagerPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asset Manager\ImageManagerPanel.resx">
+      <DependentUpon>ImageManagerPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asset Manager\AudioManagerPanel.resx">
+      <DependentUpon>AudioManagerPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Debugger\DebuggerPanel.resx">
+      <DependentUpon>DebuggerPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoteDebugger\AppRemoteController.resx">
+      <DependentUpon>AppRemoteController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoteDebugger\CompassView.resx">
+      <DependentUpon>CompassView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoteDebugger\KeyView.resx">
+      <DependentUpon>KeyView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoteDebugger\MapControl\GoogleMapControl.resx">
+      <DependentUpon>GoogleMapControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoteDebugger\RemoteControllerForm.resx">
+      <DependentUpon>RemoteControllerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <Content Include="Lua Repository\generator.lua">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lua Repository\joystick.lua">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lua Template\main.lua">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lua Template\scene.lua">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lua Repository\object.lua">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lua Repository\rosetta.lua">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lua Repository\soundengine.lua">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lua Repository\tilesmap.lua">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lua Repository\fstar.lua">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lua Repository\mobileeditorengine.lua">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lua Template\scene_editormobile.lua">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lua Repository\pathfollow.lua">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lua Repository\radar.lua">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lua Template\snippet.lua">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lua Repository\Krea Remote\remotecontroler.lua">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lua Repository\Krea Remote\remotescene.lua">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="LuaDoc\startGen.cmd" />
+    <None Include="nativesoftwarepfx.pfx" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\MicrosoftTranslator\Krea.MicrosoftTranslator.GetTranslationsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MicrosoftTranslator\Krea.MicrosoftTranslator.TranslateArrayResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MicrosoftTranslator\soap.wsdl" />
+    <None Include="Service References\MicrosoftTranslator\soap.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MicrosoftTranslator\soap1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MicrosoftTranslator\soap2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MicrosoftTranslator\soap3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MicrosoftTranslator\SoapService.wsdl" />
+    <None Include="Resources\Icone PNG CGE\undo.png" />
+    <None Include="Resources\Icone PNG CGE\redo.png" />
+    <None Include="Resources\Icone PNG CGE\saveall.png" />
+    <None Include="Resources\Icone PNG CGE\open.png" />
+    <None Include="Resources\Icone PNG CGE\copy.png" />
+    <None Include="Resources\Icone PNG CGE\cut.png" />
+    <None Include="Resources\Icone PNG CGE\paste.png" />
+    <None Include="Resources\Icone PNG CGE\quit.png" />
+    <None Include="Resources\Icone PNG CGE\backStartPage.png" />
+    <None Include="Resources\splash_final.bmp" />
+    <None Include="Resources\Icone PNG CGE\splashfinal.png" />
+    <Content Include="LuaDoc\files\fpsanalyser.html" />
+    <Content Include="LuaDoc\files\fstar.html" />
+    <Content Include="LuaDoc\files\generator.html" />
+    <Content Include="LuaDoc\files\joystick.html" />
+    <Content Include="LuaDoc\files\Lua Repository\fpsanalyser.html" />
+    <Content Include="LuaDoc\files\Lua Repository\fstar.html" />
+    <Content Include="LuaDoc\files\Lua Repository\generator.html" />
+    <Content Include="LuaDoc\files\Lua Repository\joystick.html" />
+    <Content Include="LuaDoc\files\Lua Repository\mobileeditorengine.html" />
+    <Content Include="LuaDoc\files\Lua Repository\object.html" />
+    <Content Include="LuaDoc\files\Lua Repository\pathfollow.html" />
+    <Content Include="LuaDoc\files\Lua Repository\radar.html" />
+    <Content Include="LuaDoc\files\Lua Repository\rosetta.html" />
+    <Content Include="LuaDoc\files\Lua Repository\soundengine.html" />
+    <Content Include="LuaDoc\files\Lua Repository\tabbar.html" />
+    <Content Include="LuaDoc\files\Lua Repository\tilesmap.html" />
+    <Content Include="LuaDoc\files\Lua Repository\ui.html" />
+    <Content Include="LuaDoc\files\mobileeditorengine.html" />
+    <Content Include="LuaDoc\files\object.html" />
+    <Content Include="LuaDoc\files\pathfollow.html" />
+    <Content Include="LuaDoc\files\radar.html" />
+    <Content Include="LuaDoc\files\rosetta.html" />
+    <Content Include="LuaDoc\files\soundengine.html" />
+    <Content Include="LuaDoc\files\tabbar.html" />
+    <Content Include="LuaDoc\files\tilesmap.html" />
+    <Content Include="LuaDoc\files\ui.html" />
+    <Content Include="LuaDoc\index.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LuaDoc\luadoc.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LuaDoc\modules\fpsanalyser.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LuaDoc\modules\fstar.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LuaDoc\modules\generator.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LuaDoc\modules\joystick.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LuaDoc\modules\mobileeditorengine.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LuaDoc\modules\object.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LuaDoc\modules\pathfollow.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LuaDoc\modules\radar.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LuaDoc\modules\rosetta.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LuaDoc\modules\soundengine.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LuaDoc\modules\tilesmap.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resolutions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Icone PNG CGE\jointure sans fond.png" />
+    <None Include="Resources\Icone PNG CGE\IconCollision.png" />
+    <None Include="Resources\Icone PNG CGE\iconNoCollision.png" />
+    <None Include="Resources\Icone PNG CGE\iconkrea.png" />
+    <None Include="Resources\Icone PNG CGE\help.png" />
+    <None Include="Resources\Icone PNG CGE\bmpfile.png" />
+    <None Include="Resources\Icone PNG CGE\handcursor.png" />
+    <None Include="Resources\Icone PNG CGE\duplicateobject.png" />
+    <None Include="Resources\cancelOrange.png" />
+    <None Include="Resources\Icone PNG CGE\maj.png" />
+    <None Include="Resources\Icone PNG CGE\pathfollow.png" />
+    <None Include="Resources\Icone PNG CGE\projet sans fond.png" />
+    <None Include="Resources\Icone PNG CGE\sprite.png" />
+    <None Include="Resources\validateOrange.png" />
+    <None Include="Resources\Icone PNG CGE\pubclass.png" />
+    <None Include="Resources\Icone PNG CGE\pubfield.png" />
+    <None Include="Resources\Icone PNG CGE\pubmethod.png" />
+    <None Include="Resources\Icone PNG CGE\pubproperty.png" />
+    <None Include="Resources\Images\all\add-file.png" />
+    <None Include="Resources\Images\all\addsf.png" />
+    <None Include="Resources\Images\all\ai.png" />
+    <None Include="Resources\Images\all\audio-file.png" />
+    <None Include="Resources\Images\all\barcode.png" />
+    <None Include="Resources\Images\all\bin-full.png" />
+    <None Include="Resources\Images\application\crayonsf.png" />
+    <None Include="Resources\Images\application\delete.png" />
+    <None Include="Resources\Images\application\document.png" />
+    <None Include="Resources\Images\application\download.png" />
+    <None Include="Resources\Images\application\font.png" />
+    <None Include="Resources\Images\application\open.png" />
+    <None Include="Resources\Images\application\palette.png" />
+    <None Include="Resources\Images\application\play.png" />
+    <None Include="Resources\Images\application\refresh.png" />
+    <None Include="Resources\Images\application\save.png" />
+    <None Include="Resources\Images\application\settings.png" />
+    <None Include="Resources\Images\application\stop.png" />
+    <None Include="Resources\Images\application\tools.png" />
+    <None Include="Resources\Images\application\wand.png" />
+    <None Include="Resources\Images\black\about.png" />
+    <None Include="Resources\Images\black\edit.png" />
+    <None Include="Resources\Images\black\info.png" />
+    <None Include="Resources\Images\black\map.png" />
+    <None Include="Resources\Images\black\photos.png" />
+    <None Include="Resources\Images\black\service.png" />
+    <None Include="Resources\Images\black\star.png" />
+    <None Include="Resources\Images\black\tick.png" />
+    <None Include="Resources\Images\ecommerce\buynow.png" />
+    <None Include="Resources\Images\ecommerce\new.png" />
+    <None Include="Resources\Images\ecommerce\wallet.png" />
+    <None Include="Resources\Images\file\audio-file.png" />
+    <None Include="Resources\Images\file\bmp.png" />
+    <None Include="Resources\Images\file\download-file.png" />
+    <None Include="Resources\Images\file\edit-file.png" />
+    <None Include="Resources\Images\file\many-files.png" />
+    <None Include="Resources\Images\file\note-file.png" />
+    <None Include="Resources\Images\file\plain-file.png" />
+    <None Include="Resources\Images\file\text-file.png" />
+    <None Include="Resources\Images\mobile\camera.png" />
+    <None Include="Resources\Images\mobile\games.png" />
+    <None Include="Resources\Images\black\login.png" />
+    <None Include="Resources\Images\all\home.png" />
+    <None Include="Resources\Images\all\carre.png" />
+    <None Include="Resources\Images\black\cercle.png" />
+    <None Include="Resources\Images\file\upload-file.png" />
+    <None Include="Resources\Images\all\auction.png" />
+    <None Include="Resources\Images\all\video.png" />
+    <None Include="Resources\Images\all\gps.png" />
+    <None Include="Resources\Images\all\zoomin.png" />
+    <None Include="Resources\Images\all\zoomout.png" />
+    <None Include="Resources\Images\all\courbe.png" />
+    <None Include="Resources\Images\all\line.png" />
+    <None Include="Resources\Images\black\users.png" />
+    <None Include="Resources\Images\application\rotateLeft.png" />
+    <None Include="Resources\Images\application\doubleFleche.png" />
+    <None Include="Resources\Images\application\flecheBas.png" />
+    <None Include="Resources\Images\application\flecheDroite.png" />
+    <None Include="Resources\Images\application\flecheGauche.png" />
+    <None Include="Resources\Images\application\flecheHaut.png" />
+    <None Include="Resources\Images\application\doubleRight.png" />
+    <None Include="Resources\Images\application\down.png" />
+    <None Include="Resources\Images\application\left.png" />
+    <None Include="Resources\Images\application\right.png" />
+    <None Include="Resources\Images\application\up.png" />
+    <None Include="Resources\Images\application\calculator.png" />
+    <None Include="Resources\Images\black\comment.png" />
+    <None Include="Resources\Images\application\saveAll.png" />
+    <None Include="Resources\Images\application\saveAllFiles.png" />
+    <None Include="Resources\Images\file\search-file.png" />
+    <None Include="Resources\Images\application\startEmulator.png" />
+    <None Include="Resources\Images\application\startCustomEmulator.png" />
+    <None Include="Resources\Images\black\pasteText.png" />
+    <None Include="Resources\Images\file\uploadObject.png" />
+    <None Include="Resources\Images\file\uploadTexture.png" />
+    <None Include="Resources\Images\ecommerce\shop.png" />
+    <None Include="Resources\Images\all\exportScene.png" />
+    <None Include="Resources\Images\all\importScene.png" />
+    <None Include="Resources\Images\file\settings-file.png" />
+    <None Include="Resources\Images\all\spriteset.png" />
+    <None Include="Resources\Images\all\spritesheet.png" />
+    <None Include="Resources\Images\black\sprite.png" />
+    <None Include="Resources\Images\all\coupon.png" />
+    <None Include="Resources\Images\all\rotateCursor.png" />
+    <None Include="Resources\Images\black\editCursor.png" />
+    <None Include="Resources\Final Images\addFile.png" />
+    <None Include="Resources\Final Images\addItem.png" />
+    <None Include="Resources\Final Images\assetsIcon.png" />
+    <None Include="Resources\Final Images\audioIcon.png" />
+    <None Include="Resources\Final Images\bmpFileIcon.png" />
+    <None Include="Resources\Final Images\bookmarkIcon.png" />
+    <None Include="Resources\Final Images\buildIcon.png" />
+    <None Include="Resources\Final Images\calculatorIcon.png" />
+    <None Include="Resources\Final Images\cameraIcon.png" />
+    <None Include="Resources\Final Images\circleIcon.png" />
+    <None Include="Resources\Final Images\collisionIcon.png" />
+    <None Include="Resources\Final Images\copyIcon.png" />
+    <None Include="Resources\Final Images\curveIcon.png" />
+    <None Include="Resources\Final Images\deleteFile.png" />
+    <None Include="Resources\Final Images\deleteIcon.png" />
+    <None Include="Resources\Final Images\documentIcon.png" />
+    <None Include="Resources\Final Images\doubleFlecheDrotieIcon.png" />
+    <None Include="Resources\Final Images\downloadFileIcon.png" />
+    <None Include="Resources\Final Images\duplicateIcon.png" />
+    <None Include="Resources\Final Images\editFileIcon.png" />
+    <None Include="Resources\Final Images\editIcon.png" />
+    <None Include="Resources\Final Images\exportSceneIcon.png" />
+    <None Include="Resources\Final Images\findIcon.png" />
+    <None Include="Resources\Final Images\flecheBasIcon.png" />
+    <None Include="Resources\Final Images\flecheDroiteIcon.png" />
+    <None Include="Resources\Final Images\flecheGaucheIcon.png" />
+    <None Include="Resources\Final Images\flecheHautIcon.png" />
+    <None Include="Resources\Final Images\folderIcon.png" />
+    <None Include="Resources\Final Images\importSceneIcon.png" />
+    <None Include="Resources\Final Images\infoIcon.png" />
+    <None Include="Resources\Final Images\joystickIcon.png" />
+    <None Include="Resources\Final Images\languageIcon.png" />
+    <None Include="Resources\Final Images\layerIcon.png" />
+    <None Include="Resources\Final Images\list.png" />
+    <None Include="Resources\Final Images\newProject.png" />
+    <None Include="Resources\Final Images\objectIcon.png" />
+    <None Include="Resources\Final Images\pasteIcon.png" />
+    <None Include="Resources\Final Images\physicsIcon.png" />
+    <None Include="Resources\Final Images\plain.png" />
+    <None Include="Resources\Final Images\plainFileIcon.png" />
+    <None Include="Resources\Final Images\playItem.png" />
+    <None Include="Resources\Final Images\polylineIcon.png" />
+    <None Include="Resources\Final Images\projectArchive.png" />
+    <None Include="Resources\Final Images\projectIcon.png" />
+    <None Include="Resources\Final Images\questionIcon.png" />
+    <None Include="Resources\Final Images\rectangleIcon.png" />
+    <None Include="Resources\Final Images\refreshIcon.png" />
+    <None Include="Resources\Final Images\removeIcon.png" />
+    <None Include="Resources\Final Images\rotateLeftIcon.png" />
+    <None Include="Resources\Final Images\rotateRightIcon.png" />
+    <None Include="Resources\Final Images\saveAllIcon.png" />
+    <None Include="Resources\Final Images\saveIcon.png" />
+    <None Include="Resources\Final Images\sceneIcon.png" />
+    <None Include="Resources\Final Images\secure_pay.png" />
+    <None Include="Resources\Final Images\settingsIcon.png" />
+    <None Include="Resources\Final Images\snippetIcon.png" />
+    <None Include="Resources\Final Images\spriteIcon.png" />
+    <None Include="Resources\Final Images\spriteSetIcon.png" />
+    <None Include="Resources\Final Images\spriteSheetIcon.png" />
+    <None Include="Resources\Final Images\stopIcon.png" />
+    <None Include="Resources\Final Images\textFileIcon.png" />
+    <None Include="Resources\Final Images\textIcon.png" />
+    <None Include="Resources\Final Images\tickIcon.png" />
+    <None Include="Resources\Final Images\tilemapIcon.png" />
+    <None Include="Resources\Final Images\toolsIcon.png" />
+    <None Include="Resources\Final Images\uploadIcon.png" />
+    <None Include="Resources\Final Images\uploadObjTileIcon.png" />
+    <None Include="Resources\Final Images\uploadTextTileIcon.png" />
+    <None Include="Resources\Final Images\userIcon.png" />
+    <None Include="Resources\Final Images\zoomInIcon.png" />
+    <None Include="Resources\Final Images\zoomOutIcon.png" />
+    <None Include="Resources\Final Images\paletteIcon.png" />
+    <None Include="Resources\Final Images\openIcon.png" />
+    <None Include="Resources\Final Images\shopIcon.png" />
+    <None Include="Resources\Final Images\adsIcon.png" />
+    <None Include="Resources\Images\ecommerce\new1.png" />
+    <None Include="Resources\Images\black\about1.png" />
+    <None Include="Resources\Images\all\add-file1.png" />
+    <None Include="Resources\Images\all\addsf1.png" />
+    <None Include="Resources\Images\all\ai1.png" />
+    <None Include="Resources\Images\all\auction1.png" />
+    <None Include="Resources\Images\all\audio-file1.png" />
+    <None Include="Resources\Images\all\barcode1.png" />
+    <None Include="Resources\Images\all\bin-full1.png" />
+    <None Include="Resources\Images\file\bmp1.png" />
+    <None Include="Resources\Icone PNG CGE\bmpfile1.png" />
+    <None Include="Resources\Images\ecommerce\buynow1.png" />
+    <None Include="Resources\Images\application\calculator1.png" />
+    <None Include="Resources\Images\mobile\camera1.png" />
+    <None Include="Resources\Images\all\carre1.png" />
+    <None Include="Resources\Images\black\cercle1.png" />
+    <None Include="Resources\Images\black\comment1.png" />
+    <None Include="Resources\Images\all\coupon1.png" />
+    <None Include="Resources\Images\all\courbe1.png" />
+    <None Include="Resources\Images\application\crayonsf1.png" />
+    <None Include="Resources\Images\application\delete1.png" />
+    <None Include="Resources\Images\application\document1.png" />
+    <None Include="Resources\Final Images\cameraFolowIcon.png" />
+    <None Include="Resources\Final Images\pathFollowIcon.png" />
+    <None Include="Resources\Final Images\releaseModeIcon.png" />
+    <None Include="Resources\Final Images\camera.png" />
+    <None Include="Resources\Final Images\cutIcon.png" />
+    <None Include="Resources\Final Images\debugModeIcon.png" />
+    <None Include="Resources\Final Images\gommeObjIcon.png" />
+    <None Include="Resources\Final Images\gommeTextIcon.png" />
+    <None Include="Resources\Final Images\startCustomEmulator.png" />
+    <None Include="Resources\Final Images\startEmulator.png" />
+    <None Include="Resources\Final Images\workspaceIcon.png" />
+    <None Include="Resources\Final Images\potPeintureIcon.png" />
+    <None Include="Resources\Final Images\gommeIcon.png" />
+    <None Include="Resources\Final Images\luaCheckIcon.png" />
+    <None Include="Resources\Final Images\ttf.png" />
+    <None Include="Resources\Final Images\compass.png" />
+    <None Include="Resources\Final Images\reportBug.png" />
+    <None Include="Resources\Final Images\email.png" />
+    <Content Include="Settings1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Service References\opts\NativeSecurity.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icone PNG CGE\ImageEditCopy.png" />
+    <None Include="Resources\Icone PNG CGE\ImageEditCut.png" />
+    <None Include="Resources\Icone PNG CGE\ImageEditPaste.png" />
+    <None Include="Resources\Icone PNG CGE\ImageEditRedo.png" />
+    <None Include="Resources\Icone PNG CGE\ImageEditUndo.png" />
+    <None Include="Resources\Icone PNG CGE\ImageFileNew.png" />
+    <None Include="Resources\Icone PNG CGE\ImageFileOpen.png" />
+    <None Include="Resources\Icone PNG CGE\ImageFilePrint.png" />
+    <None Include="Resources\Icone PNG CGE\ImageFilePrintPreview.png" />
+    <None Include="Resources\Icone PNG CGE\ImageFileSave.png" />
+    <None Include="Resources\Icone PNG CGE\ImageFileSaveAll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Scintillia\Libraries\SciLexer.dll">
+      <Link>SciLexer.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="..\Scintillia\Libraries\SciLexerx64.dll">
+      <Link>SciLexerx64.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Icone PNG CGE\ads.png" />
+    <None Include="Resources\Icone PNG CGE\chaine.png" />
+    <None Include="Resources\Icone PNG CGE\folder.png" />
+    <None Include="Resources\Icone PNG CGE\icone camera.png" />
+    <None Include="Resources\Icone PNG CGE\icone load.png" />
+    <None Include="Resources\Icone PNG CGE\icone objet.png" />
+    <None Include="Resources\Icone PNG CGE\icone save.png" />
+    <None Include="Resources\Icone PNG CGE\mode normal.png" />
+    <None Include="Resources\Icone PNG CGE\obj.png" />
+    <None Include="Resources\Icone PNG CGE\ads_pressed.png" />
+    <None Include="Resources\Icone PNG CGE\icone camera_pressed.png" />
+    <None Include="Resources\Icone PNG CGE\icone objet_pressed.png" />
+    <None Include="Resources\Icone PNG CGE\mode normal_pressed.png" />
+    <None Include="Resources\Icone PNG CGE\descendre.png" />
+    <None Include="Resources\Icone PNG CGE\icone upload.png" />
+    <None Include="Resources\Icone PNG CGE\gomme objet.png" />
+    <None Include="Resources\Icone PNG CGE\gomme texture.png" />
+    <None Include="Resources\Icone PNG CGE\deletesf.png" />
+    <None Include="Resources\Icone PNG CGE\adssf.png" />
+    <None Include="Resources\Icone PNG CGE\camerasf.png" />
+    <None Include="Resources\Icone PNG CGE\cancelsf.png" />
+    <None Include="Resources\Icone PNG CGE\carresf.png" />
+    <None Include="Resources\Icone PNG CGE\cerclesf.png" />
+    <None Include="Resources\Icone PNG CGE\courbesf.png" />
+    <None Include="Resources\Icone PNG CGE\addsf.png" />
+    <None Include="Resources\Icone PNG CGE\crayonsf.png" />
+    <None Include="Resources\Icone PNG CGE\gommeobjetsf.png" />
+    <None Include="Resources\Icone PNG CGE\gommetexture.png" />
+    <None Include="Resources\Icone PNG CGE\crossed.png" />
+    <None Include="Resources\Icone PNG CGE\avancersf.png" />
+    <None Include="Resources\Icone PNG CGE\flechebas.png" />
+    <None Include="Resources\Icone PNG CGE\flechehautsf.png" />
+    <None Include="Resources\Icone PNG CGE\Icon.png" />
+    <None Include="Resources\Icone PNG CGE\load objet.png" />
+    <None Include="Resources\Icone PNG CGE\load texture.png" />
+    <None Include="Resources\Icone PNG CGE\mode dessin.png" />
+    <None Include="Resources\Icone PNG CGE\mode mur.png" />
+    <None Include="Resources\Icone PNG CGE\widget.png" />
+    <None Include="Resources\Icone PNG CGE\pot de peinture.png" />
+    <None Include="Resources\Icone PNG CGE\toolBarDefaultImage.png" />
+    <None Include="Resources\Icone PNG CGE\manette 2.png" />
+    <None Include="Resources\Icone PNG CGE\manette.png" />
+    <None Include="Resources\Icone PNG CGE\widget sans fond.png" />
+    <None Include="Resources\Icone PNG CGE\snippet.png" />
+    <None Include="Resources\Icone PNG CGE\linesf.png" />
+    <None Include="Resources\Icone PNG CGE\movesf.png" />
+    <None Include="Resources\Icone PNG CGE\playsf.png" />
+    <None Include="Resources\Icone PNG CGE\resizesf.png" />
+    <None Include="Resources\Icone PNG CGE\rotatesf.png" />
+    <None Include="Resources\Icone PNG CGE\textsf.png" />
+    <None Include="Resources\Icone PNG CGE\validatesf.png" />
+    <None Include="Resources\Icone PNG CGE\zoominsf.png" />
+    <None Include="Resources\Icone PNG CGE\zoomoutsf.png" />
+    <None Include="Resources\Icone PNG CGE\loadsf.png" />
+    <None Include="Resources\Icone PNG CGE\mursf.png" />
+    <None Include="Resources\Icone PNG CGE\potpeinturesf.png" />
+    <None Include="Resources\Icone PNG CGE\savesf.png" />
+    <None Include="Service References\MicrosoftTranslator\configuration91.svcinfo" />
+    <None Include="Service References\MicrosoftTranslator\configuration.svcinfo" />
+    <None Include="Service References\MicrosoftTranslator\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\Icone PNG CGE\refresh.png" />
+    <None Include="Resources\Icone PNG CGE\uploadObjectTM.png" />
+    <None Include="Resources\Icone PNG CGE\uploadTextureTM.png" />
+    <None Include="Resources\Icone PNG CGE\newsf.png" />
+    <None Include="Resources\Icone PNG CGE\uncrossed.png" />
+    <None Include="Resources\Icone PNG CGE\pipette.png" />
+    <None Include="Resources\Icone PNG CGE\rotateLeft90.png" />
+    <None Include="Resources\Icone PNG CGE\rotateRight90.png" />
+    <None Include="Resources\Icone PNG CGE\palette.png" />
+    <None Include="Resources\Icone PNG CGE\majsf.png" />
+    <Content Include="Version.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Icone PNG CGE\splash final.jpg" />
+    <None Include="Resources\Icone PNG CGE\line_pressed.png" />
+    <None Include="Resources\Icone PNG CGE\rectangle_pressed.png" />
+    <None Include="Resources\Icone PNG CGE\resize_pressed.png" />
+    <None Include="Resources\Icone PNG CGE\move obj_pressed.png" />
+    <None Include="Resources\Icone PNG CGE\rotate_pressed.png" />
+    <None Include="Resources\Icone PNG CGE\texte_pressed.png" />
+    <None Include="Resources\Icone PNG CGE\add_pressed.png" />
+    <None Include="Resources\Icone PNG CGE\cercle _pressed.png" />
+    <None Include="Resources\Icone PNG CGE\zoom out.png" />
+    <None Include="Resources\Icone PNG CGE\zoom in.png" />
+    <None Include="Resources\Icone PNG CGE\validate.png" />
+    <None Include="Resources\Icone PNG CGE\texte.png" />
+    <None Include="Resources\Icone PNG CGE\stop.png" />
+    <None Include="Resources\Icone PNG CGE\sprite sheet.png" />
+    <None Include="Resources\Icone PNG CGE\sprite set.png" />
+    <None Include="Resources\Icone PNG CGE\scene.png" />
+    <None Include="Resources\Icone PNG CGE\rotate.png" />
+    <None Include="Resources\Icone PNG CGE\resize.png" />
+    <None Include="Resources\Icone PNG CGE\reculer.png" />
+    <None Include="Resources\Icone PNG CGE\rectangle.png" />
+    <None Include="Resources\Icone PNG CGE\play.png" />
+    <None Include="Resources\Icone PNG CGE\move obj.png" />
+    <None Include="Resources\Icone PNG CGE\modifier.png" />
+    <None Include="Resources\Icone PNG CGE\line.png" />
+    <None Include="Resources\Icone PNG CGE\layer.png" />
+    <None Include="Resources\Icone PNG CGE\langue.png" />
+    <None Include="Resources\Icone PNG CGE\font.png" />
+    <None Include="Resources\Icone PNG CGE\delete.png" />
+    <None Include="Resources\Icone PNG CGE\courbe.png" />
+    <None Include="Resources\Icone PNG CGE\cercle.png" />
+    <None Include="Resources\Icone PNG CGE\cancel.png" />
+    <None Include="Resources\Icone PNG CGE\avancer.png" />
+    <None Include="Resources\Icone PNG CGE\audio.png" />
+    <None Include="Resources\Icone PNG CGE\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSHTML">
+      <Guid>{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}</Guid>
+      <VersionMajor>4</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\MicrosoftTranslator\" />
+    <WCFMetadataStorage Include="Service References\opts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TilesMap\ObjectSheets\" />
+    <Folder Include="TilesMap\TextureSheets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="https://www.native-software.com/nsservlet/service.php" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/" xmlns="http://schemas.xmlsoap.org/wsdl/" name="NativeSecurity" targetNamespace="https://www.native-software.com/nsservlet/service.php" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="https://www.native-software.com/nsservlet/service.php" />
+  </wsdl:types>
+  <wsdl:message name="nsinIn">
+    <wsdl:part name="nsin" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="nsinOut">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:portType name="NativeSecurityPort">
+    <wsdl:operation name="nsin">
+      <documentation>nsin</documentation>
+      <wsdl:input message="tns:nsinIn" />
+      <wsdl:output message="tns:nsinOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NativeSecurityBinding" type="tns:NativeSecurityPort">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="nsin">
+      <soap:operation soapAction="https://www.native-software.com/nsservlet/service.php#nsin" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="https://www.native-software.com/nsservlet/service.php" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="https://www.native-software.com/nsservlet/service.php" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="NativeSecurityService">
+    <wsdl:port name="NativeSecurityPort" binding="tns:NativeSecurityBinding">
+      <soap:address location="https://www.native-software.com/nsservlet/service.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

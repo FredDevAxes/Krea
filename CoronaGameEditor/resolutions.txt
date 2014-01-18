@@ -1,0 +1,10 @@
+iPhone : 320x480
+iPhone 4 : 640x960
+iPad : 768x1024
+MotoDroid : 480x854
+GalaxyTab : 600x1024
+NexusOne : 480x800
+HtcSensation : 540x960
+KindleFire : 600x1024
+Nook Color : 600x1024
+Asus Trasformer : 800x1280

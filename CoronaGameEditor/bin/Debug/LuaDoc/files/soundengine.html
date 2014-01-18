@@ -1,0 +1,613 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <title>Reference</title>
+    <link rel="stylesheet" href="../luadoc.css" type="text/css" />
+	<!--meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/-->
+</head>
+
+<body>
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+<div id="main">
+
+<div id="navigation">
+
+
+<h1>LuaDoc</h1>
+<ul>
+	
+	<li><a href="../index.html">Index</a></li>
+	
+</ul>
+
+
+<!-- Module list -->
+
+<h1>Modules</h1>
+<ul>
+
+	<li>
+		<a href="../modules/fpsanalyser.html">fpsanalyser</a>
+	</li>
+
+	<li>
+		<a href="../modules/fstar.html">fstar</a>
+	</li>
+
+	<li>
+		<a href="../modules/generator.html">generator</a>
+	</li>
+
+	<li>
+		<a href="../modules/joystick.html">joystick</a>
+	</li>
+
+	<li>
+		<a href="../modules/mobileeditorengine.html">mobileeditorengine</a>
+	</li>
+
+	<li>
+		<a href="../modules/object.html">object</a>
+	</li>
+
+	<li>
+		<a href="../modules/pathfollow.html">pathfollow</a>
+	</li>
+
+	<li>
+		<a href="../modules/radar.html">radar</a>
+	</li>
+
+	<li>
+		<a href="../modules/rosetta.html">rosetta</a>
+	</li>
+
+	<li>
+		<a href="../modules/soundengine.html">soundengine</a>
+	</li>
+
+	<li>
+		<a href="../modules/tabbar.html">tabbar</a>
+	</li>
+
+	<li>
+		<a href="../modules/tilesmap.html">tilesmap</a>
+	</li>
+
+	<li>
+		<a href="../modules/ui.html">ui</a>
+	</li>
+
+</ul>
+
+
+
+<!-- File list -->
+
+<h1>Files</h1>
+<ul>
+
+	<li>
+		<a href="../files/fpsanalyser.html">fpsanalyser.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/fstar.html">fstar.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/generator.html">generator.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/joystick.html">joystick.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/mobileeditorengine.html">mobileeditorengine.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/object.html">object.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/pathfollow.html">pathfollow.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/radar.html">radar.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/rosetta.html">rosetta.lua</a>
+	</li>
+
+	<li><strong>soundengine.lua</strong></li>
+	
+	<li>
+		<a href="../files/tabbar.html">tabbar.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/tilesmap.html">tilesmap.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/ui.html">ui.lua</a>
+	</li>
+
+</ul>
+
+
+
+
+
+
+</div> <!-- id="navigation" -->
+
+<div id="content">
+
+<h1>File <code>soundengine.lua</code></h1>
+
+
+<p>Provides a SoundEngine managing all the audio resources and Channels for you. <br>Changing the content of this file is at your own risk. As the software Krea uses this file to auto-generate code, it can create errors during generation if you change his content.</br></p>
+
+
+<p><b>Author:</b>
+<table class="authors_list">
+
+	<tr><td class="name">Jonathan Jot</td></tr>
+
+</table>
+</p>
+
+
+<p>Copyright &copy;Native-Software 2012- All Rights Reserved.</p>
+
+
+<p><small><b>Release:</b> 1.0</small></p>
+
+
+
+<h2>Functions</h2>
+<table class="function_list">
+
+	<tr>
+	<td class="name" nowrap><a href="#SoundEngine.create">SoundEngine.create</a>&nbsp;(params)</td>
+	<td class="summary">Create a new SoundEngine Instance </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#SoundEngine:cleanSound">SoundEngine:cleanSound</a>&nbsp;(SoundPath)</td>
+	<td class="summary">Clean a Sound to free memomy </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#SoundEngine:cleanStream">SoundEngine:cleanStream</a>&nbsp;(StreamPath)</td>
+	<td class="summary">Clean a Stream to free memomy </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#SoundEngine:getSoundInformation">SoundEngine:getSoundInformation</a>&nbsp;(SoundPath)</td>
+	<td class="summary">Get Table of information for a Sound (Path, Volume, LoadOnInit, Loops, Instance) </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#SoundEngine:getStreamInformation">SoundEngine:getStreamInformation</a>&nbsp;(StreamPath)</td>
+	<td class="summary">Get Table of information for a Stream (Path, Volume, LoadOnInit, Loops, Instance) </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#SoundEngine:loadSound">SoundEngine:loadSound</a>&nbsp;(SoundPath)</td>
+	<td class="summary">Load a Sound into the memory </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#SoundEngine:loadStream">SoundEngine:loadStream</a>&nbsp;(StreamPath)</td>
+	<td class="summary">Load a Stream into the memory </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#SoundEngine:pause">SoundEngine:pause</a>&nbsp;(Channels)</td>
+	<td class="summary">Pause some channels </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#SoundEngine:playSound">SoundEngine:playSound</a>&nbsp;(SoundPath)</td>
+	<td class="summary">Play a Sound using its Volume Information and its Loops Information </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#SoundEngine:playStream">SoundEngine:playStream</a>&nbsp;(StreamPath)</td>
+	<td class="summary">Play a Stream using its Volume Information and its Loops Information </td>
+	</tr>
+
+	<tr>
+	<td class="name" nowrap><a href="#SoundEngine:stop">SoundEngine:stop</a>&nbsp;(Channels)</td>
+	<td class="summary">Stop some channels </td>
+	</tr>
+
+</table>
+
+
+
+
+
+
+<br/>
+<br/>
+
+
+
+
+<h2><a name="functions"></a>Functions</h2>
+<dl class="function">
+
+
+
+<dt><a name="SoundEngine.create"></a><strong>SoundEngine.create</strong>&nbsp;(params)</dt>
+<dd>
+Create a new SoundEngine Instance
+
+
+<h3>Parameters:</h3>
+<ul>
+	
+	<li>
+	  <code><em>params</em></code>: Lua Table containing the params
+	</li>
+	
+</ul>
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>local params = {} <br>params.StreamList = {} <br>params.SoundList = {}</li></br> <li>local sound1 = {} <br>sound1.Path = "soundFile.m4a" <br>sound1.Volume = 14 <br>sound1.LoadOnInit = true <br>sound1.Loops = -1 <br>sound1.Id = "sound1"</br></br></li> <li>local stream1 = {} <br>stream1.Path = "streamFile.m4a" <br>stream1.Volume = 14 <br>stream1.LoadOnInit = true <br>stream1.Loops = -1 <br>stream1.Id = "stream1"</li></br> <li>params.StreamList[1] = stream1</li> <li>params.SoundList[1] = sound1</li> <li>local soundEngine = require("soundengine").SoundEngine.create(params)</li></code></pre></ul>
+
+
+
+<h3>Return value:</h3>
+<ul>Return a SoundEngine Instance</ul>
+
+
+
+</dd>
+
+
+
+
+<dt><a name="SoundEngine:cleanSound"></a><strong>SoundEngine:cleanSound</strong>&nbsp;(SoundPath)</dt>
+<dd>
+Clean a Sound to free memomy
+
+
+<h3>Parameters:</h3>
+<ul>
+	
+	<li>
+	  <code><em>SoundPath</em></code>: to be cleaned
+	</li>
+	
+</ul>
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>local SoundPath = "sound1.m4a"</li> <li>soundEngine:cleanSound(SoundPath)</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="SoundEngine:cleanStream"></a><strong>SoundEngine:cleanStream</strong>&nbsp;(StreamPath)</dt>
+<dd>
+Clean a Stream to free memomy
+
+
+<h3>Parameters:</h3>
+<ul>
+	
+	<li>
+	  <code><em>StreamPath</em></code>: to be cleaned
+	</li>
+	
+</ul>
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>local StreamPath = "stream1.m4a"</li> <li>soundEngine:cleanStream(StreamPath)</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="SoundEngine:getSoundInformation"></a><strong>SoundEngine:getSoundInformation</strong>&nbsp;(SoundPath)</dt>
+<dd>
+Get Table of information for a Sound (Path, Volume, LoadOnInit, Loops, Instance)
+
+
+<h3>Parameters:</h3>
+<ul>
+	
+	<li>
+	  <code><em>SoundPath</em></code>: The sound file path
+	</li>
+	
+</ul>
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>local SoundPath = "sound1.m4a"</li> <li>soundEngine:getSoundInformation(SoundPath)</code></li> </ul></pre></ul>
+
+
+
+<h3>Return value:</h3>
+<ul>Audio Table Information or Nil if not exists</ul>
+
+
+
+</dd>
+
+
+
+
+<dt><a name="SoundEngine:getStreamInformation"></a><strong>SoundEngine:getStreamInformation</strong>&nbsp;(StreamPath)</dt>
+<dd>
+Get Table of information for a Stream (Path, Volume, LoadOnInit, Loops, Instance)
+
+
+<h3>Parameters:</h3>
+<ul>
+	
+	<li>
+	  <code><em>StreamPath</em></code>: The stream file path
+	</li>
+	
+</ul>
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>local StreamPath = "stream1.m4a"</li> <li>soundEngine:getStreamInformation(StreamPath)</code></li> </ul></pre></ul>
+
+
+
+<h3>Return value:</h3>
+<ul>Audio Table Information or Nil if not exists</ul>
+
+
+
+</dd>
+
+
+
+
+<dt><a name="SoundEngine:loadSound"></a><strong>SoundEngine:loadSound</strong>&nbsp;(SoundPath)</dt>
+<dd>
+Load a Sound into the memory
+
+
+<h3>Parameters:</h3>
+<ul>
+	
+	<li>
+	  <code><em>SoundPath</em></code>: The sound file path
+	</li>
+	
+</ul>
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>local SoundPath = "sound1.m4a"</li> <li>soundEngine:loadSound(SoundPath)</code></li> </ul></pre></ul>
+
+
+
+<h3>Return value:</h3>
+<ul>true if loaded, false otherwise</ul>
+
+
+
+</dd>
+
+
+
+
+<dt><a name="SoundEngine:loadStream"></a><strong>SoundEngine:loadStream</strong>&nbsp;(StreamPath)</dt>
+<dd>
+Load a Stream into the memory
+
+
+<h3>Parameters:</h3>
+<ul>
+	
+	<li>
+	  <code><em>StreamPath</em></code>: The stream file path
+	</li>
+	
+</ul>
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>local StreamPath = "stream1.m4a"</li> <li>soundEngine:loadStream(StreamPath)</code></li> </ul></pre></ul>
+
+
+
+<h3>Return value:</h3>
+<ul>true if loaded, false otherwise</ul>
+
+
+
+</dd>
+
+
+
+
+<dt><a name="SoundEngine:pause"></a><strong>SoundEngine:pause</strong>&nbsp;(Channels)</dt>
+<dd>
+Pause some channels
+
+
+<h3>Parameters:</h3>
+<ul>
+	
+	<li>
+	  <code><em>Channels</em></code>: The channels to be paused
+	</li>
+	
+</ul>
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>soundEngine:pause(Channels)</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+
+
+<dt><a name="SoundEngine:playSound"></a><strong>SoundEngine:playSound</strong>&nbsp;(SoundPath)</dt>
+<dd>
+Play a Sound using its Volume Information and its Loops Information
+
+
+<h3>Parameters:</h3>
+<ul>
+	
+	<li>
+	  <code><em>SoundPath</em></code>: The sound file path
+	</li>
+	
+</ul>
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>local SoundPath = "sound1.m4a"</li> <li>soundEngine:playSound(SoundPath)</code></li> </ul></pre></ul>
+
+
+
+<h3>Return value:</h3>
+<ul>Channel if loaded, nil otherwise</ul>
+
+
+
+</dd>
+
+
+
+
+<dt><a name="SoundEngine:playStream"></a><strong>SoundEngine:playStream</strong>&nbsp;(StreamPath)</dt>
+<dd>
+Play a Stream using its Volume Information and its Loops Information
+
+
+<h3>Parameters:</h3>
+<ul>
+	
+	<li>
+	  <code><em>StreamPath</em></code>: The stream file path
+	</li>
+	
+</ul>
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>local StreamPath = "stream1.m4a"</li> <li>soundEngine:playStream(StreamPath)</code></li> </ul></pre></ul>
+
+
+
+<h3>Return value:</h3>
+<ul>Channel if OK , nil otherwise</ul>
+
+
+
+</dd>
+
+
+
+
+<dt><a name="SoundEngine:stop"></a><strong>SoundEngine:stop</strong>&nbsp;(Channels)</dt>
+<dd>
+Stop some channels
+
+
+<h3>Parameters:</h3>
+<ul>
+	
+	<li>
+	  <code><em>Channels</em></code>: The channels to be stoped
+	</li>
+	
+</ul>
+
+
+
+
+<h3>Usage:</h3>
+<ul><pre class=example>Usage: <ul> <li><code>soundEngine:stop(Channels)</code></li> </ul></pre></ul>
+
+
+
+
+
+</dd>
+
+
+</dl>
+
+
+
+
+
+
+
+</div> <!-- id="content" -->
+
+</div> <!-- id="main" -->
+
+<div id="about">
+	<p><a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0!" height="31" width="88" /></a></p>
+</div> <!-- id="about" -->
+
+</div> <!-- id="container" -->	
+</body>
+</html>
